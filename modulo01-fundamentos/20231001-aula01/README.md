@@ -10,13 +10,13 @@
 
 5. Escreva um programa que solicite o nome, a idade e o sexo do usuário. Em seguida, exiba uma mensagem personalizada informando se o usuário é homem ou mulher e se é maior ou menor de idade.
 
-6. Crie um programa que leia três notas (nota1, nota2 e nota3) de um aluno e calcule a média. Se a média for menor do que 5, imprima a mensagem "Reprovado". Se a nota for maior ou igual a 5 e menor do que 7, imprima "em recuperação". Se a nota for maior ou igual a 7, imprima "Aprovado".
+6. Crie um programa que leia três notas (nota1, nota2 e nota3) de um aluno e calcule a média. Se a média for menor do que 5, imprima a mensagem "Reprovado". Se a média for maior ou igual a 5 e menor do que 7, imprima "em recuperação". Se a média for maior ou igual a 7, imprima "Aprovado".
 
 7. Faça um programa que receba uma temperatura em graus Celsius e exiba a temperatura equivalente em graus Fahrenheit. A fórmula de conversão é: Fahrenheit = (Celsius * 9/5) + 32.
 
 8. Crie um programa que receba um número inteiro e exiba se ele é par ou ímpar.
 
-9. Crie um programa que receba o nome, o peso e a altura de uma pessoa. Em seguida, calcule o seu IMC.
+9. Crie um programa que receba o nome, o peso e a altura de uma pessoa. Em seguida, calcule o seu IMC. A altura deve ser informada no formato `metros.centimetros` (exemplo 1.79). A fórmula do IMC é a seguinte: peso / (altura * altura).
 
 10. Escreva um programa que leia o salário de um funcionário e exiba o valor do salário líquido, descontando o INSS. As faixas de desconto são as seguintes:
 * Até R$ 1.320,00                   7,5%

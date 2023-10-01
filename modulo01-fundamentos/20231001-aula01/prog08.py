@@ -26,14 +26,20 @@ if __name__ == "__main__":
 
     codigo = int(input("Informe o código: "))
 
+    # O if, assim como o elif, recebe uma expressão de comparação como "argumento". Caso essa expressão
+    # resulte no valor booleano True, o bloco de código abaixo do if será executado.
+    # Caso tenhamos elifs após, essas verificações serão ignoradas
     if codigo == VISITANTE:
         print("Identificado como visitante. Acesso somente leitura")
 
+    # Caso a comparação no if não resulte em True, o elif abaixo será testado
     elif codigo == USUARIO:
         print("Identificado como usuário. Permissões comuns no sistema")
     
     elif codigo == ADMIN:
         print("Identificado como administrador. Permissão total de acesso")
 
+    # Caso nenhuma das comparações anteriores resulte em um valor booleano True, o bloco de código
+    # do else será executado. Funciona como a ação padrão caso nenhuma das outras ações sejam executadas.
     else:
         print("Código de usuário desconhecido. Sem permissões")

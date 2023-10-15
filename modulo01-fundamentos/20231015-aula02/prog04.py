@@ -1,7 +1,7 @@
 """
 Estruturas de dados em Python
 
-Lista
+Listas
 
 Uma lista é um dos tipos de estruturas de dados em Python. Ela tem as seguintes características: Ser ordenada, mutável, indexável e permitir valores repetidos.
 
@@ -44,3 +44,27 @@ if __name__ == "__main__":
     # Por última, uma lista pode ter valores repetidos
     lista = ["Proway", "Blumenau", "Blumenau"]
     print(lista)
+
+
+    """
+    Fatiamento de listas em Python
+
+    Em Python, podemos fazer o 'slicing' (fatiamento) de listas, que nada mais são do que extrairmos pedaços de uma lista, a partir dos seus índices. Note que quando utilizamos o fatiamento, uma nova lista é criada.
+
+    Sintaxe: [start:stop:step]
+    
+    start (opcional): Índice de início inclusivo
+    stop (opcional): Índice de fim exclusivo
+    step (opcional): De quantos em quantos itens serão extraídos
+    """
+
+    linguagens = ["Python", "C#", "Java", "Javascript", "Golang"]
+
+    # Exemplo: "Fatiar" a lista extraindo os valores "Java" e "Javascript"
+    print(linguagens[2:4])
+
+    # Exemplo 2: Pegar todos os itens da lista, pulando de 2 em 2
+    print(linguagens[1::2])
+
+    # Exemplo 3: Utilizando índices negativos no slice
+    print(linguagens[:-1:2])

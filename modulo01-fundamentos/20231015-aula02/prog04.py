@@ -58,7 +58,7 @@ if __name__ == "__main__":
     step (opcional): De quantos em quantos itens serão extraídos
     """
 
-    linguagens = ["Python", "C#", "Java", "Javascript", "Golang"]
+    linguagens = ["Python", "C#", "Java", "Javascript", "Golang", "PHP", "SQL", "Perl"]
 
     # Exemplo: "Fatiar" a lista extraindo os valores "Java" e "Javascript"
     print(linguagens[2:4])
@@ -68,3 +68,53 @@ if __name__ == "__main__":
 
     # Exemplo 3: Utilizando índices negativos no slice
     print(linguagens[:-1:2])
+
+    ### Métodos de listas em Python
+
+    ## Métodos de remoção de elementos
+
+    # remove()
+    # Remove um item de uma lista a partir do seu valor. Caso exista mais um 1 item com o mesmo valor, a primeira ocorrência encontrada da esquerda para a direita é removida
+
+    linguagens.remove("SQL")
+    print(linguagens)
+
+
+    # pop(indice)
+    # Remove e retorna um item de uma lista a partir do índice informado. Se não for informad um índice, retorna o último elemento da lista
+    print(f"Removendo '{linguagens.pop(2)}' da lista")
+    print(linguagens)
+
+
+    # Comando del
+    # Podemos remover um item da lista utilizando esse comando
+    del linguagens[-1]
+    print(linguagens)
+
+
+    # clear()
+    # Apaga todos os itens da lista
+    linguagens.clear()
+    print(linguagens)
+
+
+    ## Métodos de adição de elementos
+
+    # append(item)
+    # Insere um item no final de uma lista
+    linguagens.append("Python")
+    print(linguagens)
+
+    # extend(sequencia)
+    # Extende os itens de uma lista com os itens da sequência informada
+    tupla_linguagens = ("C#", "Javascript", "SQL",)
+    linguagens.extend(tupla_linguagens)
+    print(linguagens)
+
+    # insert(posicao, valor)
+    linguagens.insert(-1, "Golang")
+    print(linguagens)
+
+    # Também podemos concatenar uma lista com a outra
+    linguagens += ["Perl", "Haskell"]
+    print(linguagens)

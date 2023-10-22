@@ -55,6 +55,18 @@ def calculo_imc(peso, altura):
     # A palavra reservada return é utilizada para retornar um valor dentro de uma função
     return imc
 
+
+# Nesse caso, criamos uma função que vai receber qualquer quantidade de argumentos. Os valores serão armazenados na tupla args. A função abaixo retorna a soma dos números dessa tupla
+# Também podemos dizer que os valores estão sendo empacotados na tupla
+def soma_numeros(*args):
+    return sum(args)
+
+
+def mostra_info(**kwargs):
+    for chave, valor in kwargs.items():
+        print(f"{chave}: {valor}")
+
+
 if __name__ == "__main__":
     
     # Chamando a função ola()
@@ -95,3 +107,25 @@ if __name__ == "__main__":
     # Podemos passar os valores para os parâmetros em qualquer ordem, desde que indiquemos qual parâmetro está recebendo o valor.
     # Chamamos de passagem por posição ou passagem por keyword
     print(calculo_imc(altura=1.90, peso=99))
+
+    # Passamos os valores por posição quando utilizamos *args
+    print(soma_numeros(2, 5))
+    print(soma_numeros(3, 4, 7, 8))
+    print(soma_numeros(1, 2, 5, 9, 8))
+    print(soma_numeros())
+
+    # Nesse caso, passamos os valores via nome de parâmetro (key args)
+    mostra_info(nome="João", idade=30, sexo="M", tipo_sanguineo="A+")
+    mostra_info(nome="Amélia", idade=30, documento="123456789")
+    mostra_info()
+
+    lista_pesos = [
+        {"peso": 98, "altura": 1.79},
+        {"peso": 67, "altura": 1.70},
+        {"peso": 120, "altura": 2.02},
+        {"peso": 99, "altura": 1.71},
+        {"peso": 80, "altura": 1.94},
+    ]
+
+    for item in lista_pesos:
+        print(calculo_imc(**item))

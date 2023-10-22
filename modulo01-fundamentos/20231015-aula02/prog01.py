@@ -4,6 +4,8 @@ Match Case
 Match Case pode ser entendida como a estrutura switch case no python. Ela é usada quando queremos escolher um valor
 dentre valores possíveis.
 
+ATENÇÃO! O match case funciona apenas a partir da versão 3.10 do Python.
+
 """
 
 USUARIO = 1

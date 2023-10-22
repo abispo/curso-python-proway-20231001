@@ -118,3 +118,34 @@ if __name__ == "__main__":
     # Também podemos concatenar uma lista com a outra
     linguagens += ["Perl", "Haskell"]
     print(linguagens)
+    
+    print('-'*100)
+
+    # Cópia de listas
+    cursos_verao = ["C#", "Python", "PHP"]
+    cursos_outono = cursos_verao
+
+    cursos_outono.extend(["HTML", "CSS", "Javascript"])
+
+    # O valor da lista cursos_verao ficou identico aos valores da lista cursos_outono.
+    print(f"Oferta de cursos no verão: {cursos_verao}")
+    print(f"Oferta de cursos no outono: {cursos_outono}")
+
+    # Solução 1: Utilizar o método copy()
+    cursos_inverno = cursos_verao.copy()
+    cursos_inverno.remove("Javascript")
+    cursos_inverno.remove("CSS")
+    cursos_inverno.remove("HTML")
+
+    print(f"Oferta de cursos no verão: {cursos_verao}")
+    print(f"Oferta de cursos no outono: {cursos_outono}")
+    print(f"Oferta de cursos no inverno: {cursos_inverno}")
+
+    # Solução 2: Utilizando o fatiamento de listas (slicing)
+    cursos_primavera = cursos_verao[1:4]
+    cursos_primavera.append("Devops")
+
+    print(f"Oferta de cursos no verão: {cursos_verao}")
+    print(f"Oferta de cursos no outono: {cursos_outono}")
+    print(f"Oferta de cursos no inverno: {cursos_inverno}")
+    print(f"Oferta de cursos na primavera: {cursos_primavera}")

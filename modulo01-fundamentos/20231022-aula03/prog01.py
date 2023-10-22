@@ -93,3 +93,59 @@ if __name__ == "__main__":
     # Pegando o par chave valor
     for chave, valor in usuario.items():
         print(f"{chave}: {valor}")
+
+    ############################################
+    # Alteração de itens em dicionários
+    ############################################
+
+    # Utilizando a sintaxe simples de dicionários
+    usuario["score"] = 8.0
+    print(usuario)
+
+    # Caso a chave informada não exista, será criado    um novo par chave-valor
+    usuario["cidade"] = "Blumenau"
+    print(usuario)
+
+    # Podemos também utilizar o método update(). Caso a chave exista, ele altera o seu valor, e caso a chave não exista, ele cria o par chave-valor
+    usuario.update({"cidade": "Pomerode", "autenticado": True})
+    print(usuario)
+
+    ############################################
+    # Exclusão de itens em dicionários
+    ############################################
+
+    # pop(chave). Remove o par chave valor pelo nome da chave
+    print(f"Excluindo a chave tipo. Valor retornado: {usuario.pop('tipo')}")
+    print(usuario)
+
+    # popitem(). Remove o último item que foi adicionado ao dicionário.
+    # Nesse caso, o par chave valor "autenticado": True será removido
+    usuario.popitem()
+    print(usuario)
+
+    # del. Remove o par chave valor especificado pela chave
+    del usuario["cidade"]
+    print(usuario)
+
+    # clear(). Remove todos os pares chave-valor do dicionário
+    usuario.clear()
+    print(usuario)
+
+    ############################################
+    # Cópia de dicionários
+    ############################################
+
+    # Aqui temos que ter o mesmo cuidado que tivemos em listas, ou seja, fazer a cópia dos valores de maneira correta.
+    itens = {"nome": "Banana", "quantidade": 2}
+    itens_b = itens
+
+    itens_b.update({"valor": 4})
+
+    print(itens, itens_b)
+
+    # Assim como nas listas, podemos utilizar o método copy() em dicionários
+
+    itens_c = itens.copy()
+    itens_c.update({"dia": "Domingo"})
+
+    print(itens, itens_b, itens_c)

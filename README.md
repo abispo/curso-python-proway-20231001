@@ -19,5 +19,5 @@ O Curso Será dividido em 3 módulos:
 - [Hackerrank](https://www.hackerrank.com/)
 - [CodeWars](https://www.codewars.com/)
 - [Exercism](https://exercism.io/)
-- [CodinGane](https://www.codingame.com/)
+- [CodinGame](https://www.codingame.com/)
 - [LeetCode](https://leetcode.com/)

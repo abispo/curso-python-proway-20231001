@@ -58,4 +58,4 @@ if __name__ == "__main__":
         arquivo_csv.writerow({"nome": "Valdir", "ultimo_acesso": "20231014"})
 
         # Salvar uma lista de registros no arquivo
-        arquivo_csv.writerows(lista_acessos)
+        arquivo_csv.writerows(lista_acessos)    

@@ -37,7 +37,7 @@ Além disso, os 3 primeiros colocados recebem como um adicional no salário os s
 Essas informações devem ser mostradas no terminal
 
 
-3. Crie um script que abra o arquivo `notas.csv` e leia o seu conteúdo. O arquivo possui uma lista de nomes de alunos e as suas respectivas novas em trabalhos. Depois de ler esse arquivo, o script deve mostrar:
+3. Crie um script que abra o arquivo `notas.csv` e leia o seu conteúdo. O arquivo possui uma lista de nomes de alunos e as suas respectivas notas em trabalhos. Depois de ler esse arquivo, o script deve mostrar:
 * A quantidade total de alunos
 * A média geral
 * Os 10 alunos com as maiores médias

@@ -17,7 +17,7 @@ Além disso, essas informações devem ser salvas em um arquivo csv (nomes.csv),
 * nome
 * quantidade
 
-Dica: Salve os dados em um dicionário e utilize a função built-in `sorted()` para mostrar na ordem correta.
+Dica: Salve os dados em um dicionário e utilize a função built-in `sorted()` para mostrar na ordem correta (https://www.w3schools.com/python/ref_func_sorted.asp).
 
 2. Crie um script que abra o arquivo `vendas.txt` e leio o seu conteúdo. O conteúdo do arquivo é formado por uma lista de informações sobre vendedores: O seu código, o seu nome e a quantidade de vendas realizadas em um período. O script deve mostrar no terminal as seguintes informações:
 * Valor total de vendas (soma das vendas de todos os vendedores)

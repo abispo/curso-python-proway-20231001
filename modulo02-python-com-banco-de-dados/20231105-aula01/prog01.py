@@ -75,3 +75,64 @@ if __name__ == "__main__":
         {"nome": "Sergipe", "sigla": "SE"},
         {"nome": "Tocantins", "sigla": "TO"}
     ]
+
+    for estado in lista_estados:
+
+        nome = estado.get("nome")
+        sigla = estado.get("sigla")
+
+        # Montar o comando de inserção
+        comando = f"INSERT INTO tb_estados(nome, sigla) VALUES ('{nome}', '{sigla}');"
+
+        # Executar o comando
+        cursor.execute(comando)
+
+        # Precisamos confirmar a transação utilizando o método commit()
+        conexao.commit()
+
+        print(f"Estado '{nome}' inserido com sucesso.")
+
+    # Ou então executamos o commit() ao final do loop, os dados serão inseridos todos de uma vez
+    # conexao.commit()
+
+    print(f"{'*'*49} CONSULTA DE DADOS {'*'*49}")
+    # Visualizando os dados da tabela tb_estados
+
+    # Criamos o comando de consulta
+    comando = "SELECT * FROM tb_estados"
+
+    # Executando a consulta 
+    resultado = cursor.execute(comando)
+
+    # Podemos trazer os dados utilizando 3 métodos diferentes
+    # O método fetchone() trás apenas o primeiro resultado da consulta
+    # print(resultado.fetchone())
+
+    # O método fetchmany(numero) trás a quantidade de registros indicado no parâmetro numero
+    # print(resultado.fetchmany(10))
+
+    # O método fetchall() trás todos os registros restantes da consulta
+    print(resultado.fetchall())
+
+    # É importante notar que, assim como no acesso a arquivos, caso o cursor interno chegue no final da consulta, será necessário executar novamente a consulta pra trazer mais dados. A linha abaixo retornará None, pois não existem mais registros a serem lidos.
+    print(resultado.fetchone())
+
+    # Trazendo novamente os dados
+    resultado = cursor.execute(comando)
+
+    # Salvando a lista de registros em uma variável
+    estados = resultado.fetchall()
+
+    for estado in estados:
+        saida = f"""
+        Estado: {estado[1]}
+        Sigla: {estado[2]}
+        -------------------------------------
+        """
+        print(saida)
+
+    # Fecha a conexão do cursor.
+    cursor.close()
+
+    # Fecha a conexão com o banco de dados
+    conexao.close()

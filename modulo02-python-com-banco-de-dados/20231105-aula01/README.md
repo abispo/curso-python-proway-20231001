@@ -49,7 +49,9 @@ aluno_maior_media           TEXT    NOT NULL
 
 Importante: A média de cada aluno será calculada excluindo a maior e a menor notas. Exemplo:
 
+```
 nome;n1;n2;n3;n4;n5
 Maria;4;9;10;2;5  
+```
 
 Nesse caso, a média da aluna Maria será calculada utilizando as 3 notas intermediárias, ou seja, [4, 5, 9]. A menor nota (2) e maior nota (10) são excluídas do cálculo, ou seja, a média de Maria será de 6.

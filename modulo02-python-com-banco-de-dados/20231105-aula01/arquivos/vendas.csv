@@ -1,0 +1,1001 @@
+sale_id;product;quantity;price
+88242305-2273-4d0d-9d41-f2f9538cc40f;Handmade Computer;3;603.41
+a0a354f0-bab7-455d-98fc-757add56cf2d;Licensed Salad;9;313.33
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Metal Bike;1;442.17
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Concrete Shoes;6;49.5
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Intelligent Granite Pants;5;462.47
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Steel Hat;3;120.23
+7fa48846-324c-475b-8d75-5a9edcd964a5;Sleek Mouse;9;408.99
+60c80671-66b2-4210-97ae-d3bb8be94deb;Steel Ball;7;393.33
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Practical Steel Soap;8;310.48
+513450fd-9db5-44ab-88db-7f7babc10ef8;Soap;9;246.74
+60c80671-66b2-4210-97ae-d3bb8be94deb;New Pants;7;877.48
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Concrete Bike;4;682.13
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Plastic Table;9;604.58
+efe03178-902b-4447-aa59-a37907b438fc;Tasty Granite Chicken;10;74.96
+76024480-d1d6-4b3c-8899-7c02107b83cb;Table;10;908.99
+88242305-2273-4d0d-9d41-f2f9538cc40f;Handcrafted Plastic Fish;2;145.8
+76024480-d1d6-4b3c-8899-7c02107b83cb;New Soap;1;131.77
+56b544b7-af79-4077-942e-e4c06968f525;Wooden Soap;2;364.79
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Practical Soft Tuna;9;217.46
+88242305-2273-4d0d-9d41-f2f9538cc40f;Fish;10;299.37
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Computer;9;590.0
+efe03178-902b-4447-aa59-a37907b438fc;Intelligent Soft Cheese;4;414.55
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Plastic Towels;5;188.1
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Generic Sausages;2;48.56
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Generic Steel Chair;8;387.6
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Practical Gloves;10;47.82
+56b544b7-af79-4077-942e-e4c06968f525;Generic Wooden Mouse;5;669.58
+efe03178-902b-4447-aa59-a37907b438fc;New Concrete Pants;10;256.48
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Pants;5;715.88
+0b5b773d-1557-42c4-b967-7285c482624d;Licensed Frozen Chair;7;530.27
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Computer;5;185.7
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Sleek Car;9;547.92
+0b5b773d-1557-42c4-b967-7285c482624d;For repair Plastic Towels;1;645.45
+513450fd-9db5-44ab-88db-7f7babc10ef8;Granite Soap;6;322.66
+56b544b7-af79-4077-942e-e4c06968f525;New Frozen Chair;7;808.7
+76024480-d1d6-4b3c-8899-7c02107b83cb;Pants;8;882.31
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Metal Fish;1;375.81
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Soap;10;695.63
+61620f20-063a-47cf-9ce5-f514abf9427d;Fish;2;784.71
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Fantastic Soft Bacon;1;713.54
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Concrete Keyboard;7;152.86
+41abd365-72a0-44ea-a4ad-2d345b201613;Shirt;6;824.64
+0b5b773d-1557-42c4-b967-7285c482624d;Soap;1;59.22
+56b544b7-af79-4077-942e-e4c06968f525;Small Soft Pants;7;493.8
+efe03178-902b-4447-aa59-a37907b438fc;Gorgeous Computer;2;46.27
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Handmade Bacon;7;13.9
+a0a354f0-bab7-455d-98fc-757add56cf2d;Concrete Bacon;9;970.31
+41abd365-72a0-44ea-a4ad-2d345b201613;Rubber Bike;8;16.8
+364dc77-87ec-4b0c-9565-3dac8e8f117f;Practical Frozen Towels;6;512.65
+60c80671-66b2-4210-97ae-d3bb8be94deb;Plastic Cheese;3;567.5
+580cac7b-3095-4505-a30d-4bfa80789a93;Fantastic Chair;2;860.4
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;For repair Pizza;3;823.23
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Cotton Keyboard;9;326.93
+7fa48846-324c-475b-8d75-5a9edcd964a5;New Cheese;8;139.28
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Rustic Car;3;93.51
+7fa48846-324c-475b-8d75-5a9edcd964a5;Rustic Metal Ball;10;295.21
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Towels;6;655.49
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Soft Computer;8;923.9
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Shoes;6;109.51
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Wooden Table;9;410.65
+efe03178-902b-4447-aa59-a37907b438fc;Plastic Sausages;9;81.0
+41abd365-72a0-44ea-a4ad-2d345b201613;Intelligent Concrete Tuna;3;440.32
+76024480-d1d6-4b3c-8899-7c02107b83cb;Small Shoes;3;694.49
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Refined Shoes;8;306.56
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Handcrafted Wooden Salad;2;61.94
+efe03178-902b-4447-aa59-a37907b438fc;Table;1;679.55
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Awesome Pants;1;341.1
+580cac7b-3095-4505-a30d-4bfa80789a93;Generic Frozen Computer;5;962.77
+60c80671-66b2-4210-97ae-d3bb8be94deb;Wooden Shoes;3;999.27
+efe03178-902b-4447-aa59-a37907b438fc;Fish;3;143.9
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Small Bacon;3;156.22
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Practical Plastic Cheese;3;476.48
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Soft Shoes;7;430.95
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Cotton Chips;1;109.36
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Fantastic Granite Salad;6;757.11
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Sleek Soft Fish;5;911.48
+56b544b7-af79-4077-942e-e4c06968f525;Gloves;6;497.95
+61620f20-063a-47cf-9ce5-f514abf9427d;Rubber Chips;8;140.27
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Practical Hat;1;842.65
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Chicken;10;325.1
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Pizza;10;119.89
+60c80671-66b2-4210-97ae-d3bb8be94deb;Salad;3;195.98
+513450fd-9db5-44ab-88db-7f7babc10ef8;Plastic Tuna;5;132.31
+580cac7b-3095-4505-a30d-4bfa80789a93;Concrete Bacon;2;914.51
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Practical Sausages;3;338.38
+88242305-2273-4d0d-9d41-f2f9538cc40f;Gently Used Soft Keyboard;1;487.75
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Refined Chicken;6;545.87
+61620f20-063a-47cf-9ce5-f514abf9427d;Metal Towels;5;393.57
+41abd365-72a0-44ea-a4ad-2d345b201613;Wooden Bacon;5;296.6
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Gently Used Sausages;6;979.34
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Granite Table;9;442.64
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Frozen Chips;9;648.39
+580cac7b-3095-4505-a30d-4bfa80789a93;Frozen Bacon;4;104.5
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Table;10;160.4
+580cac7b-3095-4505-a30d-4bfa80789a93;Small Bacon;7;229.21
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Plastic Bacon;7;735.64
+61620f20-063a-47cf-9ce5-f514abf9427d;Gorgeous Soft Pants;9;144.14
+88242305-2273-4d0d-9d41-f2f9538cc40f;Car;7;740.59
+61620f20-063a-47cf-9ce5-f514abf9427d;Rustic Concrete Pants;7;631.1
+513450fd-9db5-44ab-88db-7f7babc10ef8;Awesome Soft Shoes;5;837.55
+580cac7b-3095-4505-a30d-4bfa80789a93;Salad;4;922.45
+88242305-2273-4d0d-9d41-f2f9538cc40f;Practical Sausages;1;636.8
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Sleek Wooden Salad;2;378.8
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Wooden Pizza;4;683.3
+0b5b773d-1557-42c4-b967-7285c482624d;Small Sausages;9;205.7
+60c80671-66b2-4210-97ae-d3bb8be94deb;Rubber Towels;5;451.8
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Granite Keyboard;4;174.77
+60c80671-66b2-4210-97ae-d3bb8be94deb;Steel Computer;4;974.26
+76024480-d1d6-4b3c-8899-7c02107b83cb;Cotton Pants;1;697.23
+513450fd-9db5-44ab-88db-7f7babc10ef8;Generic Metal Ball;9;826.97
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Fantastic Granite Ball;3;364.48
+efe03178-902b-4447-aa59-a37907b438fc;Pizza;10;530.3
+76024480-d1d6-4b3c-8899-7c02107b83cb;Gloves;9;254.5
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Generic Cheese;10;111.76
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Bacon;1;897.55
+88242305-2273-4d0d-9d41-f2f9538cc40f;Intelligent Concrete Bike;1;554.64
+61620f20-063a-47cf-9ce5-f514abf9427d;Frozen Sausages;6;59.4
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Soft Keyboard;2;419.13
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Bacon;1;348.81
+60c80671-66b2-4210-97ae-d3bb8be94deb;Concrete Chair;1;634.34
+61620f20-063a-47cf-9ce5-f514abf9427d;Gently Used Steel Pants;10;811.92
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Handmade Chair;10;926.95
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Licensed Shoes;8;979.86
+a0a354f0-bab7-455d-98fc-757add56cf2d;Hat;4;571.42
+88242305-2273-4d0d-9d41-f2f9538cc40f;Granite Keyboard;8;366.7
+7fa48846-324c-475b-8d75-5a9edcd964a5;Intelligent Pants;7;781.62
+7fa48846-324c-475b-8d75-5a9edcd964a5;Metal Soap;7;495.73
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Salad;8;719.48
+61620f20-063a-47cf-9ce5-f514abf9427d;Granite Salad;6;744.49
+580cac7b-3095-4505-a30d-4bfa80789a93;Gloves;8;276.85
+56b544b7-af79-4077-942e-e4c06968f525;Small Chicken;3;804.85
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Concrete Hat;6;564.28
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Fantastic Wooden Bike;5;415.66
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Fantastic Plastic Tuna;9;31.71
+56b544b7-af79-4077-942e-e4c06968f525;Chair;10;131.79
+35a9d6de-a779-4289-a30d-dbd09afc1b59;New Car;9;230.9
+513450fd-9db5-44ab-88db-7f7babc10ef8;Cotton Soap;2;714.2
+41abd365-72a0-44ea-a4ad-2d345b201613;Steel Chips;6;749.77
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Unbranded Fish;5;342.13
+513450fd-9db5-44ab-88db-7f7babc10ef8;Generic Metal Chair;10;799.61
+513450fd-9db5-44ab-88db-7f7babc10ef8;Granite Shirt;9;232.27
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Keyboard;6;211.79
+88242305-2273-4d0d-9d41-f2f9538cc40f;Licensed Rubber Chicken;8;986.83
+60c80671-66b2-4210-97ae-d3bb8be94deb;Incredible Soap;4;602.35
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Mouse;1;11.5
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Pizza;1;215.4
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Soap;9;190.23
+88242305-2273-4d0d-9d41-f2f9538cc40f;Shoes;9;72.35
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Frozen Ball;6;60.95
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Fantastic Granite Chips;1;925.39
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Cotton Fish;8;784.39
+513450fd-9db5-44ab-88db-7f7babc10ef8;Practical Bacon;4;322.87
+7fa48846-324c-475b-8d75-5a9edcd964a5;Incredible Granite Bike;7;118.26
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Tasty Table;6;489.57
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Granite Tuna;6;152.7
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Table;2;619.16
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Gorgeous Steel Towels;5;487.77
+513450fd-9db5-44ab-88db-7f7babc10ef8;Metal Gloves;4;640.42
+513450fd-9db5-44ab-88db-7f7babc10ef8;Concrete Computer;7;304.36
+56b544b7-af79-4077-942e-e4c06968f525;Fantastic Plastic Shoes;6;848.95
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Granite Bacon;2;864.22
+56b544b7-af79-4077-942e-e4c06968f525;Bacon;1;683.65
+a0a354f0-bab7-455d-98fc-757add56cf2d;Hat;5;109.8
+0b5b773d-1557-42c4-b967-7285c482624d;Fresh Gloves;6;374.11
+76024480-d1d6-4b3c-8899-7c02107b83cb;Hat;5;518.92
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Wooden Tuna;6;433.74
+60c80671-66b2-4210-97ae-d3bb8be94deb;Salad;8;224.77
+efe03178-902b-4447-aa59-a37907b438fc;Rustic Cotton Car;4;907.38
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Steel Sausages;1;6.77
+7fa48846-324c-475b-8d75-5a9edcd964a5;Intelligent Wooden Cheese;3;990.69
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Wooden Bike;6;980.45
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Bacon;8;135.9
+580cac7b-3095-4505-a30d-4bfa80789a93;Gorgeous Car;5;92.1
+88242305-2273-4d0d-9d41-f2f9538cc40f;Hat;8;524.96
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Frozen Towels;8;843.4
+56b544b7-af79-4077-942e-e4c06968f525;Awesome Shirt;3;306.49
+41abd365-72a0-44ea-a4ad-2d345b201613;Wooden Pizza;9;255.8
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Unbranded Metal Salad;3;442.9
+513450fd-9db5-44ab-88db-7f7babc10ef8;Gently Used Steel Cheese;8;715.1
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Gently Used Frozen Sausages;1;698.6
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Generic Granite Chair;6;77.81
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Handmade Keyboard;2;365.48
+7fa48846-324c-475b-8d75-5a9edcd964a5;Shoes;1;972.91
+56b544b7-af79-4077-942e-e4c06968f525;Frozen Mouse;5;536.65
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;For repair Granite Shoes;7;437.4
+a0a354f0-bab7-455d-98fc-757add56cf2d;Bike;9;533.8
+0b5b773d-1557-42c4-b967-7285c482624d;Granite Shoes;9;723.82
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Plastic Pants;8;769.2
+56b544b7-af79-4077-942e-e4c06968f525;Towels;10;793.45
+76024480-d1d6-4b3c-8899-7c02107b83cb;Bike;7;405.88
+88242305-2273-4d0d-9d41-f2f9538cc40f;Handmade Salad;10;357.74
+41abd365-72a0-44ea-a4ad-2d345b201613;Chair;3;456.73
+a0a354f0-bab7-455d-98fc-757add56cf2d;Wooden Fish;9;228.77
+61620f20-063a-47cf-9ce5-f514abf9427d;Table;10;682.52
+7fa48846-324c-475b-8d75-5a9edcd964a5;Chicken;9;367.42
+0b5b773d-1557-42c4-b967-7285c482624d;Cotton Computer;4;418.15
+efe03178-902b-4447-aa59-a37907b438fc;Unbranded Chips;6;195.17
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Computer;3;282.86
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Handcrafted Concrete Sausages;7;571.45
+88242305-2273-4d0d-9d41-f2f9538cc40f;Bike;8;688.75
+0b5b773d-1557-42c4-b967-7285c482624d;Used Steel Keyboard;7;963.51
+41abd365-72a0-44ea-a4ad-2d345b201613;Shoes;2;79.8
+76024480-d1d6-4b3c-8899-7c02107b83cb;Steel Gloves;7;407.23
+60c80671-66b2-4210-97ae-d3bb8be94deb;Used Ball;7;580.0
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Shoes;6;44.33
+580cac7b-3095-4505-a30d-4bfa80789a93;Generic Gloves;3;668.78
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Gorgeous Metal Chair;4;710.72
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Cotton Gloves;9;473.72
+88242305-2273-4d0d-9d41-f2f9538cc40f;Cotton Bacon;2;674.21
+60c80671-66b2-4210-97ae-d3bb8be94deb;Shoes;5;578.6
+88242305-2273-4d0d-9d41-f2f9538cc40f;Intelligent Rubber Mouse;7;323.95
+efe03178-902b-4447-aa59-a37907b438fc;Chicken;8;425.69
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Handcrafted Granite Chicken;5;707.79
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Ergonomic Granite Chicken;6;532.2
+efe03178-902b-4447-aa59-a37907b438fc;Gently Used Wooden Soap;7;951.48
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Generic Chicken;6;111.22
+efe03178-902b-4447-aa59-a37907b438fc;Fantastic Fish;8;772.23
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Ball;9;198.7
+580cac7b-3095-4505-a30d-4bfa80789a93;Handmade Concrete Ball;9;714.4
+a0a354f0-bab7-455d-98fc-757add56cf2d;Metal Pants;6;307.47
+0b5b773d-1557-42c4-b967-7285c482624d;Sleek Ball;4;571.9
+580cac7b-3095-4505-a30d-4bfa80789a93;Small Steel Keyboard;7;95.44
+60c80671-66b2-4210-97ae-d3bb8be94deb;Sausages;7;463.1
+88242305-2273-4d0d-9d41-f2f9538cc40f;Steel Shoes;10;377.72
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Metal Cheese;9;185.88
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Licensed Sausages;7;923.89
+88242305-2273-4d0d-9d41-f2f9538cc40f;Keyboard;4;882.7
+0b5b773d-1557-42c4-b967-7285c482624d;Rubber Chips;4;541.1
+61620f20-063a-47cf-9ce5-f514abf9427d;Hat;9;973.7
+580cac7b-3095-4505-a30d-4bfa80789a93;Used Tuna;5;13.55
+7fa48846-324c-475b-8d75-5a9edcd964a5;Gently Used Cotton Cheese;7;118.91
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Ergonomic Frozen Car;5;396.68
+56b544b7-af79-4077-942e-e4c06968f525;Plastic Cheese;7;709.8
+60c80671-66b2-4210-97ae-d3bb8be94deb;Gloves;5;884.75
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Rubber Bacon;4;899.29
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Handcrafted Shirt;3;447.95
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Cheese;2;419.9
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Bike;8;875.8
+61620f20-063a-47cf-9ce5-f514abf9427d;Pants;8;332.61
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Hat;5;424.64
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Granite Hat;2;552.83
+0b5b773d-1557-42c4-b967-7285c482624d;Fish;8;299.88
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Licensed Towels;1;983.35
+513450fd-9db5-44ab-88db-7f7babc10ef8;Plastic Table;1;6.0
+513450fd-9db5-44ab-88db-7f7babc10ef8;Steel Keyboard;4;216.59
+61620f20-063a-47cf-9ce5-f514abf9427d;Granite Bike;9;164.61
+513450fd-9db5-44ab-88db-7f7babc10ef8;Tuna;1;287.24
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Incredible Gloves;3;814.42
+a0a354f0-bab7-455d-98fc-757add56cf2d;Steel Shirt;6;598.39
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Practical Bacon;5;57.32
+76024480-d1d6-4b3c-8899-7c02107b83cb;Chips;2;838.74
+0b5b773d-1557-42c4-b967-7285c482624d;Unbranded Granite Keyboard;7;588.92
+efe03178-902b-4447-aa59-a37907b438fc;New Gloves;7;653.41
+61620f20-063a-47cf-9ce5-f514abf9427d;Gorgeous Sausages;10;965.4
+60c80671-66b2-4210-97ae-d3bb8be94deb;Gloves;8;337.55
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Fantastic Mouse;2;377.14
+0b5b773d-1557-42c4-b967-7285c482624d;Licensed Rubber Ball;3;203.21
+41abd365-72a0-44ea-a4ad-2d345b201613;Unbranded Salad;7;621.12
+513450fd-9db5-44ab-88db-7f7babc10ef8;Unbranded Granite Pants;1;211.33
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Shoes;1;432.8
+41abd365-72a0-44ea-a4ad-2d345b201613;Incredible Bacon;4;298.2
+efe03178-902b-4447-aa59-a37907b438fc;Awesome Metal Car;8;332.3
+76024480-d1d6-4b3c-8899-7c02107b83cb;Intelligent Granite Salad;3;886.81
+88242305-2273-4d0d-9d41-f2f9538cc40f;Soft Table;10;965.45
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Unbranded Concrete Mouse;6;683.18
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Licensed Granite Ball;9;276.84
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Rubber Salad;2;851.28
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Rubber Bike;10;8.24
+56b544b7-af79-4077-942e-e4c06968f525;Frozen Keyboard;5;105.35
+0b5b773d-1557-42c4-b967-7285c482624d;Towels;5;640.64
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Small Tuna;7;216.17
+60c80671-66b2-4210-97ae-d3bb8be94deb;Ergonomic Fresh Towels;10;33.68
+56b544b7-af79-4077-942e-e4c06968f525;Gloves;1;44.29
+76024480-d1d6-4b3c-8899-7c02107b83cb;New Fish;10;46.81
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Shirt;6;963.53
+513450fd-9db5-44ab-88db-7f7babc10ef8;Licensed Metal Pizza;10;62.14
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Gloves;5;621.55
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;New Plastic Fish;3;721.57
+a0a354f0-bab7-455d-98fc-757add56cf2d;Tuna;9;58.21
+513450fd-9db5-44ab-88db-7f7babc10ef8;Soft Gloves;4;621.66
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Handcrafted Tuna;2;387.39
+efe03178-902b-4447-aa59-a37907b438fc;Cheese;2;120.93
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Hat;10;924.55
+0b5b773d-1557-42c4-b967-7285c482624d;Practical Shirt;5;523.79
+513450fd-9db5-44ab-88db-7f7babc10ef8;Plastic Hat;7;339.59
+0b5b773d-1557-42c4-b967-7285c482624d;Incredible Bacon;1;801.58
+41abd365-72a0-44ea-a4ad-2d345b201613;Ergonomic Plastic Shoes;10;870.36
+7fa48846-324c-475b-8d75-5a9edcd964a5;Bike;7;234.93
+0b5b773d-1557-42c4-b967-7285c482624d;Chicken;10;444.48
+56b544b7-af79-4077-942e-e4c06968f525;Wooden Sausages;1;980.81
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;For repair Granite Chips;1;887.97
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Gently Used Fresh Cheese;2;220.86
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Shirt;2;483.29
+76024480-d1d6-4b3c-8899-7c02107b83cb;Cotton Computer;1;69.34
+61620f20-063a-47cf-9ce5-f514abf9427d;Soft Salad;8;627.22
+88242305-2273-4d0d-9d41-f2f9538cc40f;Rustic Soap;2;384.55
+56b544b7-af79-4077-942e-e4c06968f525;Incredible Car;9;227.58
+88242305-2273-4d0d-9d41-f2f9538cc40f;Plastic Gloves;4;801.86
+76024480-d1d6-4b3c-8899-7c02107b83cb;Used Concrete Bike;1;652.16
+580cac7b-3095-4505-a30d-4bfa80789a93;Generic Gloves;6;868.17
+88242305-2273-4d0d-9d41-f2f9538cc40f;Table;9;751.3
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Generic Concrete Chicken;8;674.36
+efe03178-902b-4447-aa59-a37907b438fc;Rustic Computer;8;454.42
+76024480-d1d6-4b3c-8899-7c02107b83cb;Gently Used Plastic Gloves;10;600.47
+a0a354f0-bab7-455d-98fc-757add56cf2d;Shirt;1;866.98
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Rustic Shirt;6;801.63
+56b544b7-af79-4077-942e-e4c06968f525;Used Metal Soap;4;75.32
+a0a354f0-bab7-455d-98fc-757add56cf2d;Gently Used Cotton Pants;10;155.35
+580cac7b-3095-4505-a30d-4bfa80789a93;Wooden Ball;6;317.84
+41abd365-72a0-44ea-a4ad-2d345b201613;Intelligent Metal Pizza;8;405.17
+56b544b7-af79-4077-942e-e4c06968f525;Concrete Car;7;69.45
+60c80671-66b2-4210-97ae-d3bb8be94deb;Refined Wooden Shirt;6;383.77
+7fa48846-324c-475b-8d75-5a9edcd964a5;Handmade Fresh Car;4;966.93
+efe03178-902b-4447-aa59-a37907b438fc;Tasty Cotton Cheese;6;745.9
+efe03178-902b-4447-aa59-a37907b438fc;Handcrafted Plastic Cheese;10;419.73
+56b544b7-af79-4077-942e-e4c06968f525;Sleek Soft Salad;2;312.47
+a0a354f0-bab7-455d-98fc-757add56cf2d;Practical Bacon;9;821.61
+580cac7b-3095-4505-a30d-4bfa80789a93;Pizza;3;623.14
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Refined Towels;1;673.79
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Generic Sausages;8;219.48
+88242305-2273-4d0d-9d41-f2f9538cc40f;Sleek Rubber Ball;4;147.86
+60c80671-66b2-4210-97ae-d3bb8be94deb;Small Frozen Tuna;7;790.79
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Fantastic Shoes;7;713.52
+60c80671-66b2-4210-97ae-d3bb8be94deb;Salad;10;814.6
+7fa48846-324c-475b-8d75-5a9edcd964a5;Concrete Hat;8;299.58
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Gorgeous Fish;1;337.44
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Fish;8;78.4
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Shoes;3;543.94
+a0a354f0-bab7-455d-98fc-757add56cf2d;Sausages;7;590.39
+efe03178-902b-4447-aa59-a37907b438fc;Used Metal Mouse;1;931.88
+7fa48846-324c-475b-8d75-5a9edcd964a5;Granite Chips;3;230.2
+580cac7b-3095-4505-a30d-4bfa80789a93;Refined Cheese;10;583.63
+41abd365-72a0-44ea-a4ad-2d345b201613;Generic Tuna;4;432.8
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Plastic Fish;4;29.76
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Table;3;413.4
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Frozen Pizza;7;160.99
+a0a354f0-bab7-455d-98fc-757add56cf2d;Practical Tuna;7;477.35
+efe03178-902b-4447-aa59-a37907b438fc;Used Cotton Shirt;4;20.55
+60c80671-66b2-4210-97ae-d3bb8be94deb;New Cotton Hat;8;911.72
+580cac7b-3095-4505-a30d-4bfa80789a93;New Rubber Mouse;5;766.71
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Chicken;3;330.91
+60c80671-66b2-4210-97ae-d3bb8be94deb;Rustic Plastic Bacon;8;571.26
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Intelligent Wooden Car;4;793.77
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Frozen Salad;10;520.87
+a0a354f0-bab7-455d-98fc-757add56cf2d;Granite Car;3;714.93
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Plastic Cheese;9;767.76
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Granite Shirt;8;18.93
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Fantastic Shoes;5;340.8
+7fa48846-324c-475b-8d75-5a9edcd964a5;Steel Ball;3;835.36
+60c80671-66b2-4210-97ae-d3bb8be94deb;Used Tuna;9;128.9
+580cac7b-3095-4505-a30d-4bfa80789a93;Chips;9;556.89
+88242305-2273-4d0d-9d41-f2f9538cc40f;Concrete Mouse;4;491.7
+7fa48846-324c-475b-8d75-5a9edcd964a5;Wooden Towels;6;185.1
+76024480-d1d6-4b3c-8899-7c02107b83cb;Concrete Shoes;2;830.58
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Plastic Car;5;775.66
+76024480-d1d6-4b3c-8899-7c02107b83cb;Pants;10;864.31
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Rustic Car;9;870.66
+513450fd-9db5-44ab-88db-7f7babc10ef8;Pizza;6;518.19
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Licensed Rubber Soap;8;311.7
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Intelligent Granite Shoes;2;538.84
+76024480-d1d6-4b3c-8899-7c02107b83cb;Practical Computer;10;427.61
+580cac7b-3095-4505-a30d-4bfa80789a93;Gently Used Hat;7;260.98
+a0a354f0-bab7-455d-98fc-757add56cf2d;Soft Shoes;4;795.72
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Awesome Wooden Salad;10;93.65
+61620f20-063a-47cf-9ce5-f514abf9427d;Fresh Gloves;7;309.5
+56b544b7-af79-4077-942e-e4c06968f525;Concrete Towels;6;737.11
+580cac7b-3095-4505-a30d-4bfa80789a93;New Salad;10;955.84
+41abd365-72a0-44ea-a4ad-2d345b201613;Wooden Bacon;9;613.35
+a0a354f0-bab7-455d-98fc-757add56cf2d;Practical Metal Pizza;5;124.57
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Unbranded Table;6;797.19
+61620f20-063a-47cf-9ce5-f514abf9427d;Gloves;10;650.62
+61620f20-063a-47cf-9ce5-f514abf9427d;Gorgeous Chair;2;169.6
+61620f20-063a-47cf-9ce5-f514abf9427d;Granite Gloves;2;849.37
+7fa48846-324c-475b-8d75-5a9edcd964a5;Mouse;10;232.29
+88242305-2273-4d0d-9d41-f2f9538cc40f;Computer;4;480.4
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Metal Shoes;3;314.64
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Steel Gloves;7;830.56
+580cac7b-3095-4505-a30d-4bfa80789a93;New Frozen Towels;4;184.5
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Sausages;9;48.21
+efe03178-902b-4447-aa59-a37907b438fc;Awesome Frozen Sausages;3;590.4
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Fantastic Bike;7;279.88
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Small Steel Sausages;8;534.84
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Sleek Fish;5;290.53
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Fresh Fish;10;354.85
+0b5b773d-1557-42c4-b967-7285c482624d;Intelligent Shoes;8;832.21
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Granite Pizza;1;476.47
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Gently Used Keyboard;4;268.26
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Ergonomic Shirt;5;6.87
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Sausages;4;107.77
+61620f20-063a-47cf-9ce5-f514abf9427d;Soft Chips;3;932.79
+56b544b7-af79-4077-942e-e4c06968f525;For repair Granite Table;8;18.56
+61620f20-063a-47cf-9ce5-f514abf9427d;Sausages;6;341.3
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Keyboard;8;637.21
+513450fd-9db5-44ab-88db-7f7babc10ef8;Rubber Chair;10;384.15
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Fantastic Granite Computer;3;977.73
+61620f20-063a-47cf-9ce5-f514abf9427d;Ball;5;99.56
+580cac7b-3095-4505-a30d-4bfa80789a93;Fresh Towels;2;767.83
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Refined Metal Pants;6;95.42
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Ergonomic Hat;3;718.17
+513450fd-9db5-44ab-88db-7f7babc10ef8;Fresh Chicken;3;22.37
+7fa48846-324c-475b-8d75-5a9edcd964a5;Fantastic Frozen Mouse;8;100.84
+76024480-d1d6-4b3c-8899-7c02107b83cb;Fish;3;873.37
+60c80671-66b2-4210-97ae-d3bb8be94deb;Pants;3;410.63
+56b544b7-af79-4077-942e-e4c06968f525;Fantastic Car;7;243.7
+88242305-2273-4d0d-9d41-f2f9538cc40f;Small Ball;8;170.71
+580cac7b-3095-4505-a30d-4bfa80789a93;Generic Cheese;4;482.61
+d9c4c772-425d-4222-8f74-a64ce0e2278e;For repair Soap;6;937.9
+7fa48846-324c-475b-8d75-5a9edcd964a5;Gorgeous Table;5;683.94
+60c80671-66b2-4210-97ae-d3bb8be94deb;For repair Metal Chair;10;725.75
+0b5b773d-1557-42c4-b967-7285c482624d;Chair;9;538.6
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Ball;7;321.99
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Incredible Concrete Mouse;7;110.44
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Fish;5;315.1
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Concrete Pizza;10;180.58
+88242305-2273-4d0d-9d41-f2f9538cc40f;Gently Used Pizza;5;591.4
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Ergonomic Bacon;4;984.19
+41abd365-72a0-44ea-a4ad-2d345b201613;Handmade Pizza;1;299.8
+61620f20-063a-47cf-9ce5-f514abf9427d;Soft Bike;2;589.2
+76024480-d1d6-4b3c-8899-7c02107b83cb;Metal Table;9;598.6
+efe03178-902b-4447-aa59-a37907b438fc;Salad;8;38.35
+580cac7b-3095-4505-a30d-4bfa80789a93;Towels;5;785.64
+7fa48846-324c-475b-8d75-5a9edcd964a5;Frozen Mouse;10;741.81
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Gorgeous Rubber Keyboard;7;320.75
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Tasty Pants;9;282.66
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Rustic Fresh Car;6;758.93
+56b544b7-af79-4077-942e-e4c06968f525;Licensed Fresh Pants;3;303.43
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Shirt;4;249.55
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Rubber Car;1;207.3
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;New Sausages;5;154.71
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Sausages;1;640.43
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Wooden Car;10;33.47
+41abd365-72a0-44ea-a4ad-2d345b201613;Intelligent Plastic Salad;10;645.96
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Salad;7;786.34
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;For repair Salad;4;231.4
+efe03178-902b-4447-aa59-a37907b438fc;Gently Used Metal Soap;4;598.21
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Metal Bacon;3;115.36
+580cac7b-3095-4505-a30d-4bfa80789a93;Small Concrete Bike;4;770.0
+88242305-2273-4d0d-9d41-f2f9538cc40f;New Salad;3;95.15
+88242305-2273-4d0d-9d41-f2f9538cc40f;Refined Hat;2;463.55
+7fa48846-324c-475b-8d75-5a9edcd964a5;Gorgeous Fresh Chair;2;194.11
+41abd365-72a0-44ea-a4ad-2d345b201613;Wooden Fish;9;31.52
+41abd365-72a0-44ea-a4ad-2d345b201613;Fresh Fish;1;937.83
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Refined Steel Pizza;4;636.24
+56b544b7-af79-4077-942e-e4c06968f525;Towels;6;854.22
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Cotton Table;2;284.55
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Used Wooden Hat;7;694.74
+88242305-2273-4d0d-9d41-f2f9538cc40f;Frozen Shoes;6;162.77
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Tuna;5;243.88
+56b544b7-af79-4077-942e-e4c06968f525;Pants;9;445.31
+7fa48846-324c-475b-8d75-5a9edcd964a5;Gloves;3;71.38
+580cac7b-3095-4505-a30d-4bfa80789a93;Awesome Chair;10;264.78
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Shoes;10;160.41
+513450fd-9db5-44ab-88db-7f7babc10ef8;Sausages;8;609.84
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;New Fish;6;685.11
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Concrete Soap;3;131.66
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Cotton Table;2;103.67
+60c80671-66b2-4210-97ae-d3bb8be94deb;For repair Bike;2;673.95
+41abd365-72a0-44ea-a4ad-2d345b201613;Salad;8;611.81
+41abd365-72a0-44ea-a4ad-2d345b201613;Tuna;9;9.11
+56b544b7-af79-4077-942e-e4c06968f525;Steel Sausages;1;127.42
+56b544b7-af79-4077-942e-e4c06968f525;Sausages;2;587.83
+0b5b773d-1557-42c4-b967-7285c482624d;Small Ball;6;470.25
+a0a354f0-bab7-455d-98fc-757add56cf2d;Plastic Towels;8;528.31
+56b544b7-af79-4077-942e-e4c06968f525;Frozen Shoes;6;172.28
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Sausages;5;535.87
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Concrete Hat;7;952.38
+56b544b7-af79-4077-942e-e4c06968f525;Incredible Concrete Sausages;4;214.66
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Steel Table;5;723.89
+76024480-d1d6-4b3c-8899-7c02107b83cb;Intelligent Wooden Table;2;651.25
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Granite Computer;4;70.0
+56b544b7-af79-4077-942e-e4c06968f525;Car;7;323.45
+580cac7b-3095-4505-a30d-4bfa80789a93;Concrete Cheese;2;827.66
+a0a354f0-bab7-455d-98fc-757add56cf2d;Refined Hat;8;569.7
+61620f20-063a-47cf-9ce5-f514abf9427d;Small Pizza;2;461.4
+efe03178-902b-4447-aa59-a37907b438fc;Sleek Hat;7;942.18
+a0a354f0-bab7-455d-98fc-757add56cf2d;Gorgeous Frozen Chicken;10;506.81
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Rubber Salad;8;32.66
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Soft Chicken;2;730.98
+7fa48846-324c-475b-8d75-5a9edcd964a5;Fantastic Chicken;6;666.6
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Unbranded Pants;8;265.46
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Intelligent Wooden Soap;8;333.23
+7fa48846-324c-475b-8d75-5a9edcd964a5;Wooden Keyboard;8;86.7
+513450fd-9db5-44ab-88db-7f7babc10ef8;Ball;7;581.39
+88242305-2273-4d0d-9d41-f2f9538cc40f;Concrete Soap;9;763.31
+88242305-2273-4d0d-9d41-f2f9538cc40f;Towels;6;703.62
+7fa48846-324c-475b-8d75-5a9edcd964a5;Handcrafted Bike;1;274.19
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Refined Soap;4;996.29
+513450fd-9db5-44ab-88db-7f7babc10ef8;Keyboard;3;747.85
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Tasty Concrete Mouse;3;705.84
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Concrete Salad;1;947.13
+41abd365-72a0-44ea-a4ad-2d345b201613;Soap;9;364.87
+580cac7b-3095-4505-a30d-4bfa80789a93;New Granite Bike;8;543.3
+513450fd-9db5-44ab-88db-7f7babc10ef8;Plastic Fish;6;831.52
+88242305-2273-4d0d-9d41-f2f9538cc40f;Gorgeous Shoes;2;366.19
+580cac7b-3095-4505-a30d-4bfa80789a93;For repair Rubber Shoes;7;779.27
+56b544b7-af79-4077-942e-e4c06968f525;Small Fresh Soap;3;890.95
+0b5b773d-1557-42c4-b967-7285c482624d;Sausages;7;220.11
+a0a354f0-bab7-455d-98fc-757add56cf2d;Sausages;7;828.55
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Cheese;8;957.54
+56b544b7-af79-4077-942e-e4c06968f525;Unbranded Steel Pants;5;110.38
+0b5b773d-1557-42c4-b967-7285c482624d;Plastic Bike;6;599.4
+41abd365-72a0-44ea-a4ad-2d345b201613;Refined Wooden Keyboard;5;101.93
+0b5b773d-1557-42c4-b967-7285c482624d;Ball;5;423.39
+41abd365-72a0-44ea-a4ad-2d345b201613;Sleek Salad;6;932.67
+61620f20-063a-47cf-9ce5-f514abf9427d;Ergonomic Cotton Shirt;1;685.26
+580cac7b-3095-4505-a30d-4bfa80789a93;Bacon;10;158.86
+580cac7b-3095-4505-a30d-4bfa80789a93;Soap;5;604.14
+60c80671-66b2-4210-97ae-d3bb8be94deb;Licensed Granite Fish;9;915.92
+56b544b7-af79-4077-942e-e4c06968f525;Mouse;1;421.35
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Refined Granite Salad;4;951.62
+580cac7b-3095-4505-a30d-4bfa80789a93;Gently Used Pizza;2;839.7
+60c80671-66b2-4210-97ae-d3bb8be94deb;Licensed Granite Table;6;856.27
+580cac7b-3095-4505-a30d-4bfa80789a93;Gorgeous Rubber Pants;5;906.66
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Fresh Shirt;10;589.4
+580cac7b-3095-4505-a30d-4bfa80789a93;Wooden Pizza;3;712.49
+580cac7b-3095-4505-a30d-4bfa80789a93;Granite Shirt;5;926.7
+7fa48846-324c-475b-8d75-5a9edcd964a5;Cotton Towels;1;839.23
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Unbranded Chair;10;82.48
+60c80671-66b2-4210-97ae-d3bb8be94deb;Concrete Hat;7;574.39
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Practical Sausages;4;736.6
+88242305-2273-4d0d-9d41-f2f9538cc40f;Fantastic Table;8;369.4
+60c80671-66b2-4210-97ae-d3bb8be94deb;Incredible Fresh Table;10;832.65
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Chips;5;635.14
+60c80671-66b2-4210-97ae-d3bb8be94deb;Salad;7;295.19
+7fa48846-324c-475b-8d75-5a9edcd964a5;Practical Fresh Table;3;634.82
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Computer;4;148.8
+a0a354f0-bab7-455d-98fc-757add56cf2d;Towels;2;215.41
+41abd365-72a0-44ea-a4ad-2d345b201613;New Computer;3;818.17
+a0a354f0-bab7-455d-98fc-757add56cf2d;Fantastic Steel Sausages;5;546.45
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Metal Salad;4;252.82
+76024480-d1d6-4b3c-8899-7c02107b83cb;For repair Bike;3;238.46
+60c80671-66b2-4210-97ae-d3bb8be94deb;Intelligent Concrete Hat;10;304.61
+60c80671-66b2-4210-97ae-d3bb8be94deb;Tasty Chair;2;569.56
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Generic Table;3;471.97
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Fantastic Steel Fish;7;994.51
+0b5b773d-1557-42c4-b967-7285c482624d;Gorgeous Computer;6;382.59
+a0a354f0-bab7-455d-98fc-757add56cf2d;Shirt;10;124.5
+60c80671-66b2-4210-97ae-d3bb8be94deb;Handmade Fish;6;381.79
+60c80671-66b2-4210-97ae-d3bb8be94deb;Plastic Keyboard;2;82.6
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Handmade Soft Bacon;9;310.93
+efe03178-902b-4447-aa59-a37907b438fc;Fresh Towels;6;752.98
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Generic Steel Sausages;8;333.4
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Intelligent Mouse;6;864.27
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Awesome Concrete Pants;1;479.9
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Gently Used Plastic Bacon;5;192.33
+41abd365-72a0-44ea-a4ad-2d345b201613;Unbranded Chicken;8;696.54
+56b544b7-af79-4077-942e-e4c06968f525;Unbranded Soft Ball;10;474.15
+efe03178-902b-4447-aa59-a37907b438fc;Sausages;5;952.95
+a0a354f0-bab7-455d-98fc-757add56cf2d;Cotton Salad;6;356.87
+7fa48846-324c-475b-8d75-5a9edcd964a5;Ball;8;802.25
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Tasty Chips;4;632.81
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Gently Used Granite Table;10;585.3
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Handcrafted Computer;4;84.83
+0b5b773d-1557-42c4-b967-7285c482624d;Concrete Shirt;8;677.29
+0b5b773d-1557-42c4-b967-7285c482624d;Practical Chair;1;424.55
+88242305-2273-4d0d-9d41-f2f9538cc40f;New Computer;3;972.84
+56b544b7-af79-4077-942e-e4c06968f525;Practical Steel Bike;2;356.43
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Steel Cheese;1;226.52
+41abd365-72a0-44ea-a4ad-2d345b201613;Unbranded Chicken;8;86.12
+41abd365-72a0-44ea-a4ad-2d345b201613;Licensed Pants;5;562.94
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Shoes;3;554.25
+61620f20-063a-47cf-9ce5-f514abf9427d;Practical Wooden Tuna;1;632.8
+76024480-d1d6-4b3c-8899-7c02107b83cb;Fantastic Pizza;7;738.12
+41abd365-72a0-44ea-a4ad-2d345b201613;Mouse;2;671.44
+76024480-d1d6-4b3c-8899-7c02107b83cb;New Steel Chair;10;648.27
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Refined Soft Pizza;9;685.93
+88242305-2273-4d0d-9d41-f2f9538cc40f;New Tuna;9;597.7
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Rubber Soap;7;710.3
+88242305-2273-4d0d-9d41-f2f9538cc40f;Chair;1;508.93
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Towels;7;523.78
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Tuna;8;899.78
+61620f20-063a-47cf-9ce5-f514abf9427d;Generic Soap;4;209.99
+7fa48846-324c-475b-8d75-5a9edcd964a5;Intelligent Chicken;6;832.0
+4cd379de-5009-45b1-bb77-08cd5784d9a5;New Shirt;4;568.18
+580cac7b-3095-4505-a30d-4bfa80789a93;New Frozen Computer;1;456.25
+41abd365-72a0-44ea-a4ad-2d345b201613;Pizza;3;163.67
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Handcrafted Gloves;2;197.4
+513450fd-9db5-44ab-88db-7f7babc10ef8;Chair;10;972.32
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Fresh Bacon;4;949.73
+efe03178-902b-4447-aa59-a37907b438fc;Unbranded Soft Chicken;4;558.25
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Wooden Soap;6;927.29
+41abd365-72a0-44ea-a4ad-2d345b201613;Metal Car;4;172.98
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Tasty Concrete Fish;5;955.64
+a0a354f0-bab7-455d-98fc-757add56cf2d;Car;4;147.0
+513450fd-9db5-44ab-88db-7f7babc10ef8;Shoes;7;197.3
+76024480-d1d6-4b3c-8899-7c02107b83cb;Rustic Steel Towels;10;684.37
+61620f20-063a-47cf-9ce5-f514abf9427d;Concrete Fish;5;249.37
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Practical Wooden Pants;8;528.2
+76024480-d1d6-4b3c-8899-7c02107b83cb;Handmade Plastic Chips;1;958.8
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Mouse;5;843.76
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Frozen Sausages;4;965.2
+56b544b7-af79-4077-942e-e4c06968f525;Refined Shirt;4;159.68
+0b5b773d-1557-42c4-b967-7285c482624d;For repair Pants;9;755.5
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Refined Table;8;334.25
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Fantastic Cotton Fish;5;846.88
+76024480-d1d6-4b3c-8899-7c02107b83cb;Rustic Table;4;521.4
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Cotton Sausages;5;864.89
+61620f20-063a-47cf-9ce5-f514abf9427d;Ergonomic Gloves;4;182.71
+60c80671-66b2-4210-97ae-d3bb8be94deb;Plastic Fish;4;646.9
+0b5b773d-1557-42c4-b967-7285c482624d;Fantastic Soap;4;749.4
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Steel Fish;4;427.93
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Salad;5;843.38
+0b5b773d-1557-42c4-b967-7285c482624d;Granite Hat;2;93.31
+0b5b773d-1557-42c4-b967-7285c482624d;For repair Ball;7;649.11
+56b544b7-af79-4077-942e-e4c06968f525;Fish;8;508.61
+61620f20-063a-47cf-9ce5-f514abf9427d;Fantastic Salad;10;115.82
+a0a354f0-bab7-455d-98fc-757add56cf2d;Gently Used Granite Pizza;10;55.1
+61620f20-063a-47cf-9ce5-f514abf9427d;Intelligent Metal Shoes;5;699.66
+41abd365-72a0-44ea-a4ad-2d345b201613;Rubber Chips;1;909.49
+41abd365-72a0-44ea-a4ad-2d345b201613;Incredible Cotton Keyboard;7;763.95
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Chair;10;207.36
+41abd365-72a0-44ea-a4ad-2d345b201613;Granite Car;10;244.7
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Soft Mouse;3;237.3
+0b5b773d-1557-42c4-b967-7285c482624d;New Tuna;4;665.38
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Plastic Ball;4;25.84
+efe03178-902b-4447-aa59-a37907b438fc;Metal Gloves;7;454.63
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Sausages;1;39.57
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Used Soap;7;418.29
+513450fd-9db5-44ab-88db-7f7babc10ef8;Gently Used Wooden Gloves;10;666.4
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Licensed Fish;2;514.57
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Pizza;4;601.31
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Plastic Tuna;7;414.77
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Fresh Towels;5;514.29
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Ergonomic Granite Bacon;4;714.65
+88242305-2273-4d0d-9d41-f2f9538cc40f;For repair Ball;5;113.82
+513450fd-9db5-44ab-88db-7f7babc10ef8;Licensed Ball;10;530.27
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Sausages;6;593.19
+580cac7b-3095-4505-a30d-4bfa80789a93;Chips;1;860.11
+a0a354f0-bab7-455d-98fc-757add56cf2d;Soft Table;2;76.36
+56b544b7-af79-4077-942e-e4c06968f525;Generic Sausages;6;512.56
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Fresh Sausages;6;761.83
+a0a354f0-bab7-455d-98fc-757add56cf2d;For repair Chips;1;555.39
+a0a354f0-bab7-455d-98fc-757add56cf2d;Metal Shirt;2;69.15
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Incredible Fresh Bike;10;669.2
+61620f20-063a-47cf-9ce5-f514abf9427d;Sleek Sausages;5;134.74
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Used Chips;9;738.66
+580cac7b-3095-4505-a30d-4bfa80789a93;Small Cotton Pants;5;560.68
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Refined Frozen Bacon;10;564.55
+a0a354f0-bab7-455d-98fc-757add56cf2d;Concrete Gloves;6;629.79
+0b5b773d-1557-42c4-b967-7285c482624d;Small Soft Pants;7;829.71
+513450fd-9db5-44ab-88db-7f7babc10ef8;Sleek Table;2;861.94
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Sleek Bacon;6;992.9
+76024480-d1d6-4b3c-8899-7c02107b83cb;Steel Computer;3;585.84
+88242305-2273-4d0d-9d41-f2f9538cc40f;Table;4;70.69
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;New Chair;7;616.45
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Gorgeous Bacon;6;867.67
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Practical Granite Sausages;9;431.26
+56b544b7-af79-4077-942e-e4c06968f525;Awesome Towels;10;743.99
+0b5b773d-1557-42c4-b967-7285c482624d;Steel Car;10;336.19
+efe03178-902b-4447-aa59-a37907b438fc;Gently Used Frozen Computer;1;686.38
+76024480-d1d6-4b3c-8899-7c02107b83cb;Sleek Cotton Chicken;10;525.87
+61620f20-063a-47cf-9ce5-f514abf9427d;Licensed Soft Tuna;5;732.8
+513450fd-9db5-44ab-88db-7f7babc10ef8;Sausages;8;162.7
+41abd365-72a0-44ea-a4ad-2d345b201613;Cotton Soap;9;21.23
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Handmade Soft Car;9;825.42
+0b5b773d-1557-42c4-b967-7285c482624d;Soap;3;480.77
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Steel Chicken;10;787.31
+7fa48846-324c-475b-8d75-5a9edcd964a5;Ball;2;882.84
+7fa48846-324c-475b-8d75-5a9edcd964a5;Gloves;4;13.78
+88242305-2273-4d0d-9d41-f2f9538cc40f;Unbranded Shirt;1;602.75
+60c80671-66b2-4210-97ae-d3bb8be94deb;Frozen Car;10;589.57
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Small Tuna;5;262.29
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Hat;7;93.39
+580cac7b-3095-4505-a30d-4bfa80789a93;Incredible Concrete Towels;7;947.3
+7fa48846-324c-475b-8d75-5a9edcd964a5;Small Wooden Table;10;803.12
+7fa48846-324c-475b-8d75-5a9edcd964a5;Refined Salad;9;707.97
+56b544b7-af79-4077-942e-e4c06968f525;Refined Tuna;8;771.57
+76024480-d1d6-4b3c-8899-7c02107b83cb;Granite Bacon;5;301.1
+76024480-d1d6-4b3c-8899-7c02107b83cb;Steel Shoes;10;128.12
+513450fd-9db5-44ab-88db-7f7babc10ef8;Soap;3;589.34
+76024480-d1d6-4b3c-8899-7c02107b83cb;Cheese;10;886.81
+56b544b7-af79-4077-942e-e4c06968f525;Gently Used Fish;9;162.86
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Wooden Salad;2;875.39
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Steel Bike;4;716.64
+7fa48846-324c-475b-8d75-5a9edcd964a5;Granite Towels;4;735.54
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Fresh Fish;3;489.19
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Gently Used Metal Table;10;901.97
+41abd365-72a0-44ea-a4ad-2d345b201613;Bacon;8;150.63
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Concrete Shirt;8;492.52
+a0a354f0-bab7-455d-98fc-757add56cf2d;Bike;9;776.87
+60c80671-66b2-4210-97ae-d3bb8be94deb;Rubber Salad;8;687.8
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Licensed Wooden Ball;1;383.61
+88242305-2273-4d0d-9d41-f2f9538cc40f;Awesome Fresh Tuna;9;381.81
+4cd379de-5009-45b1-bb77-08cd5784d9a5;For repair Fish;3;140.4
+580cac7b-3095-4505-a30d-4bfa80789a93;Plastic Gloves;6;392.85
+580cac7b-3095-4505-a30d-4bfa80789a93;Car;4;814.4
+513450fd-9db5-44ab-88db-7f7babc10ef8;Unbranded Bacon;10;269.14
+35a9d6de-a779-4289-a30d-dbd09afc1b59;For repair Cotton Towels;6;863.86
+60c80671-66b2-4210-97ae-d3bb8be94deb;Granite Car;9;821.54
+41abd365-72a0-44ea-a4ad-2d345b201613;Refined Steel Hat;9;386.73
+7fa48846-324c-475b-8d75-5a9edcd964a5;Granite Ball;1;632.71
+513450fd-9db5-44ab-88db-7f7babc10ef8;Soap;3;974.56
+56b544b7-af79-4077-942e-e4c06968f525;Wooden Keyboard;2;461.16
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Unbranded Wooden Bike;9;805.6
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Awesome Mouse;2;905.54
+a0a354f0-bab7-455d-98fc-757add56cf2d;Small Bike;4;758.9
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Unbranded Steel Cheese;2;507.33
+76024480-d1d6-4b3c-8899-7c02107b83cb;Granite Bike;7;104.36
+a0a354f0-bab7-455d-98fc-757add56cf2d;Soft Soap;2;198.85
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Towels;9;66.6
+513450fd-9db5-44ab-88db-7f7babc10ef8;Computer;9;557.46
+efe03178-902b-4447-aa59-a37907b438fc;Gently Used Plastic Pants;10;439.89
+56b544b7-af79-4077-942e-e4c06968f525;Computer;5;257.51
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Steel Towels;7;364.67
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Intelligent Metal Salad;4;686.36
+56b544b7-af79-4077-942e-e4c06968f525;Fish;1;201.31
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Fresh Pants;10;157.5
+56b544b7-af79-4077-942e-e4c06968f525;Incredible Towels;6;84.6
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Granite Bike;8;888.89
+513450fd-9db5-44ab-88db-7f7babc10ef8;Sleek Sausages;1;690.1
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Intelligent Chair;5;279.92
+580cac7b-3095-4505-a30d-4bfa80789a93;Mouse;9;772.4
+76024480-d1d6-4b3c-8899-7c02107b83cb;Soft Chair;9;226.69
+60c80671-66b2-4210-97ae-d3bb8be94deb;Sleek Towels;1;171.47
+56b544b7-af79-4077-942e-e4c06968f525;Bike;2;974.22
+76024480-d1d6-4b3c-8899-7c02107b83cb;Ergonomic Soap;7;534.15
+41abd365-72a0-44ea-a4ad-2d345b201613;Incredible Pants;1;495.6
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Gorgeous Chips;1;346.15
+76024480-d1d6-4b3c-8899-7c02107b83cb;Soft Fish;4;597.4
+61620f20-063a-47cf-9ce5-f514abf9427d;Ball;4;732.4
+513450fd-9db5-44ab-88db-7f7babc10ef8;Bacon;6;88.2
+a0a354f0-bab7-455d-98fc-757add56cf2d;Computer;6;416.88
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Steel Chicken;3;479.87
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Unbranded Concrete Chair;5;82.39
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Tasty Tuna;3;374.48
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Shirt;1;998.68
+4cd379de-5009-45b1-bb77-08cd5784d9a5;For repair Plastic Gloves;4;685.32
+513450fd-9db5-44ab-88db-7f7babc10ef8;Keyboard;10;546.46
+a0a354f0-bab7-455d-98fc-757add56cf2d;Granite Salad;7;301.7
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Shirt;3;437.4
+76024480-d1d6-4b3c-8899-7c02107b83cb;Keyboard;3;673.98
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Car;3;750.7
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Ball;4;534.39
+61620f20-063a-47cf-9ce5-f514abf9427d;Licensed Granite Shoes;9;167.8
+88242305-2273-4d0d-9d41-f2f9538cc40f;Wooden Keyboard;4;972.59
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Bacon;9;914.7
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Small Rubber Ball;1;397.16
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Sleek Pizza;5;746.92
+41abd365-72a0-44ea-a4ad-2d345b201613;Unbranded Towels;6;799.8
+efe03178-902b-4447-aa59-a37907b438fc;Metal Chair;4;929.6
+88242305-2273-4d0d-9d41-f2f9538cc40f;Handmade Salad;1;365.13
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Cheese;1;823.29
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Gorgeous Fresh Hat;7;219.51
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Cotton Chicken;8;521.35
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Fish;3;930.38
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Gently Used Concrete Computer;2;891.56
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Used Plastic Pizza;6;269.4
+41abd365-72a0-44ea-a4ad-2d345b201613;Rubber Fish;1;734.46
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Unbranded Gloves;8;428.56
+41abd365-72a0-44ea-a4ad-2d345b201613;Incredible Chair;1;171.17
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Concrete Towels;5;917.18
+7fa48846-324c-475b-8d75-5a9edcd964a5;Frozen Pizza;3;789.6
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Sleek Ball;3;73.53
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Frozen Bacon;1;849.47
+513450fd-9db5-44ab-88db-7f7babc10ef8;Rubber Gloves;10;469.99
+60c80671-66b2-4210-97ae-d3bb8be94deb;Small Fresh Table;2;43.21
+56b544b7-af79-4077-942e-e4c06968f525;Pants;6;256.96
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Keyboard;5;220.21
+513450fd-9db5-44ab-88db-7f7babc10ef8;Frozen Salad;9;988.74
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Car;8;762.95
+580cac7b-3095-4505-a30d-4bfa80789a93;Used Pants;5;97.4
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Wooden Chair;5;397.99
+580cac7b-3095-4505-a30d-4bfa80789a93;Fresh Car;4;951.98
+56b544b7-af79-4077-942e-e4c06968f525;Gorgeous Granite Bike;9;979.6
+56b544b7-af79-4077-942e-e4c06968f525;Practical Fish;7;135.45
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Awesome Granite Bacon;5;21.59
+76024480-d1d6-4b3c-8899-7c02107b83cb;Licensed Shoes;8;661.24
+60c80671-66b2-4210-97ae-d3bb8be94deb;Pizza;3;238.65
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Gorgeous Soft Table;3;419.41
+0b5b773d-1557-42c4-b967-7285c482624d;Concrete Towels;8;640.69
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Refined Chicken;10;82.39
+efe03178-902b-4447-aa59-a37907b438fc;Rustic Soft Towels;3;845.53
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Gently Used Bacon;2;20.9
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Licensed Cotton Ball;1;111.87
+76024480-d1d6-4b3c-8899-7c02107b83cb;Rubber Soap;4;425.4
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Ergonomic Keyboard;9;624.13
+56b544b7-af79-4077-942e-e4c06968f525;Hat;4;311.26
+56b544b7-af79-4077-942e-e4c06968f525;Ergonomic Metal Ball;3;894.13
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Gently Used Concrete Bacon;8;803.85
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Rustic Plastic Table;1;874.61
+61620f20-063a-47cf-9ce5-f514abf9427d;Metal Tuna;10;873.45
+580cac7b-3095-4505-a30d-4bfa80789a93;Metal Shirt;5;66.42
+a0a354f0-bab7-455d-98fc-757add56cf2d;Plastic Pants;10;826.41
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Used Bacon;4;197.6
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Ergonomic Soft Shoes;8;166.41
+efe03178-902b-4447-aa59-a37907b438fc;Wooden Towels;9;343.99
+56b544b7-af79-4077-942e-e4c06968f525;Table;5;223.93
+513450fd-9db5-44ab-88db-7f7babc10ef8;Small Concrete Gloves;10;772.73
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Refined Cotton Mouse;6;405.66
+efe03178-902b-4447-aa59-a37907b438fc;Awesome Steel Sausages;1;867.9
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Bacon;10;974.8
+61620f20-063a-47cf-9ce5-f514abf9427d;Steel Chair;4;948.83
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Gently Used Hat;3;148.38
+a0a354f0-bab7-455d-98fc-757add56cf2d;Chair;3;429.61
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Gloves;6;364.42
+61620f20-063a-47cf-9ce5-f514abf9427d;Chair;2;131.6
+61620f20-063a-47cf-9ce5-f514abf9427d;Metal Gloves;6;985.27
+0b5b773d-1557-42c4-b967-7285c482624d;Wooden Car;8;761.87
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Cotton Chair;2;873.98
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Rustic Cotton Fish;7;97.8
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Rubber Mouse;10;814.2
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Salad;5;220.54
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Steel Bacon;10;293.63
+580cac7b-3095-4505-a30d-4bfa80789a93;Sausages;10;960.78
+7fa48846-324c-475b-8d75-5a9edcd964a5;Ergonomic Wooden Table;4;57.75
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Handmade Hat;7;900.37
+a0a354f0-bab7-455d-98fc-757add56cf2d;Keyboard;8;567.3
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Computer;5;981.81
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Small Pizza;7;967.84
+a0a354f0-bab7-455d-98fc-757add56cf2d;Chair;2;64.15
+a0a354f0-bab7-455d-98fc-757add56cf2d;Ergonomic Granite Bacon;5;109.81
+7fa48846-324c-475b-8d75-5a9edcd964a5;Gorgeous Computer;5;410.14
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Keyboard;4;797.13
+56b544b7-af79-4077-942e-e4c06968f525;Wooden Hat;10;686.89
+580cac7b-3095-4505-a30d-4bfa80789a93;Mouse;10;581.52
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Incredible Cotton Towels;8;269.21
+513450fd-9db5-44ab-88db-7f7babc10ef8;Concrete Computer;5;987.37
+56b544b7-af79-4077-942e-e4c06968f525;Granite Chicken;2;697.1
+7fa48846-324c-475b-8d75-5a9edcd964a5;Small Soft Pants;7;429.55
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Gloves;9;440.64
+513450fd-9db5-44ab-88db-7f7babc10ef8;Salad;8;865.44
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Sleek Towels;3;299.34
+60c80671-66b2-4210-97ae-d3bb8be94deb;Fish;5;174.44
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Table;4;877.1
+0b5b773d-1557-42c4-b967-7285c482624d;Cotton Salad;6;84.16
+76024480-d1d6-4b3c-8899-7c02107b83cb;Gloves;8;991.62
+61620f20-063a-47cf-9ce5-f514abf9427d;Gently Used Granite Sausages;8;73.72
+61620f20-063a-47cf-9ce5-f514abf9427d;Licensed Fish;6;793.4
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Practical Towels;2;641.3
+d9c4c772-425d-4222-8f74-a64ce0e2278e;For repair Bike;10;468.7
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Salad;5;205.37
+580cac7b-3095-4505-a30d-4bfa80789a93;Towels;2;123.42
+7fa48846-324c-475b-8d75-5a9edcd964a5;New Soap;4;330.77
+a0a354f0-bab7-455d-98fc-757add56cf2d;Fresh Soap;9;699.35
+7fa48846-324c-475b-8d75-5a9edcd964a5;Generic Towels;2;847.87
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Computer;5;343.2
+580cac7b-3095-4505-a30d-4bfa80789a93;For repair Steel Shoes;10;710.31
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Soft Salad;10;787.4
+efe03178-902b-4447-aa59-a37907b438fc;Refined Steel Chair;6;341.52
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Hat;9;89.3
+0b5b773d-1557-42c4-b967-7285c482624d;Soft Bike;7;154.6
+88242305-2273-4d0d-9d41-f2f9538cc40f;Generic Frozen Ball;1;364.24
+a0a354f0-bab7-455d-98fc-757add56cf2d;Soap;4;580.73
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Keyboard;8;71.45
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Pizza;8;283.96
+61620f20-063a-47cf-9ce5-f514abf9427d;Licensed Fish;7;565.87
+61620f20-063a-47cf-9ce5-f514abf9427d;Used Steel Shirt;8;329.23
+a0a354f0-bab7-455d-98fc-757add56cf2d;Salad;6;895.25
+efe03178-902b-4447-aa59-a37907b438fc;Handmade Table;8;408.94
+513450fd-9db5-44ab-88db-7f7babc10ef8;Gently Used Pants;5;194.4
+efe03178-902b-4447-aa59-a37907b438fc;Cotton Gloves;3;682.42
+60c80671-66b2-4210-97ae-d3bb8be94deb;Shoes;1;260.57
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Small Shoes;9;462.52
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Salad;5;982.53
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Steel Chicken;1;300.4
+60c80671-66b2-4210-97ae-d3bb8be94deb;New Plastic Computer;5;515.57
+88242305-2273-4d0d-9d41-f2f9538cc40f;Soap;5;264.35
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Rustic Granite Soap;5;778.99
+61620f20-063a-47cf-9ce5-f514abf9427d;Pizza;8;931.63
+41abd365-72a0-44ea-a4ad-2d345b201613;Intelligent Table;1;474.73
+56b544b7-af79-4077-942e-e4c06968f525;Rustic Gloves;10;913.48
+60c80671-66b2-4210-97ae-d3bb8be94deb;Gorgeous Steel Fish;6;78.44
+88242305-2273-4d0d-9d41-f2f9538cc40f;New Concrete Pizza;10;32.95
+7fa48846-324c-475b-8d75-5a9edcd964a5;Cheese;10;820.64
+76024480-d1d6-4b3c-8899-7c02107b83cb;Practical Computer;10;196.0
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Chips;4;522.49
+76024480-d1d6-4b3c-8899-7c02107b83cb;Intelligent Rubber Keyboard;5;668.55
+88242305-2273-4d0d-9d41-f2f9538cc40f;Pizza;4;495.3
+7fa48846-324c-475b-8d75-5a9edcd964a5;Refined Rubber Sausages;6;454.83
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Unbranded Computer;5;130.76
+61620f20-063a-47cf-9ce5-f514abf9427d;Fantastic Salad;8;887.64
+580cac7b-3095-4505-a30d-4bfa80789a93;Chair;9;558.9
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Cotton Chicken;7;735.71
+41abd365-72a0-44ea-a4ad-2d345b201613;Wooden Chips;6;478.24
+76024480-d1d6-4b3c-8899-7c02107b83cb;Pizza;6;964.27
+513450fd-9db5-44ab-88db-7f7babc10ef8;Car;10;425.55
+76024480-d1d6-4b3c-8899-7c02107b83cb;Granite Pizza;10;826.96
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Practical Ball;10;382.84
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Awesome Chips;9;450.97
+efe03178-902b-4447-aa59-a37907b438fc;Cotton Tuna;3;696.47
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Concrete Chicken;2;749.2
+88242305-2273-4d0d-9d41-f2f9538cc40f;Rustic Chips;6;201.25
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Salad;9;676.2
+61620f20-063a-47cf-9ce5-f514abf9427d;Chicken;3;245.79
+580cac7b-3095-4505-a30d-4bfa80789a93;Plastic Computer;5;408.27
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Cotton Tuna;1;642.71
+a0a354f0-bab7-455d-98fc-757add56cf2d;Wooden Hat;3;915.72
+61620f20-063a-47cf-9ce5-f514abf9427d;Gloves;4;695.53
+a0a354f0-bab7-455d-98fc-757add56cf2d;Granite Car;1;714.33
+56b544b7-af79-4077-942e-e4c06968f525;Handcrafted Cotton Gloves;7;772.9
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Soft Cheese;5;111.2
+0b5b773d-1557-42c4-b967-7285c482624d;Fantastic Chicken;8;102.82
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Gorgeous Frozen Mouse;9;231.39
+76024480-d1d6-4b3c-8899-7c02107b83cb;Shirt;1;319.34
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Sausages;4;67.6
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Sleek Granite Salad;1;710.82
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Chicken;9;854.77
+efe03178-902b-4447-aa59-a37907b438fc;Licensed Metal Chicken;1;964.62
+88242305-2273-4d0d-9d41-f2f9538cc40f;Practical Rubber Bike;10;509.7
+7fa48846-324c-475b-8d75-5a9edcd964a5;Cotton Shirt;5;123.14
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Ergonomic Soft Table;4;462.7
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Used Rubber Cheese;2;1.31
+35a9d6de-a779-4289-a30d-dbd09afc1b59;New Rubber Chair;2;814.57
+580cac7b-3095-4505-a30d-4bfa80789a93;Gently Used Plastic Computer;9;343.4
+580cac7b-3095-4505-a30d-4bfa80789a93;Steel Salad;6;72.65
+41abd365-72a0-44ea-a4ad-2d345b201613;Fish;2;353.14
+76024480-d1d6-4b3c-8899-7c02107b83cb;Tuna;5;973.83
+56b544b7-af79-4077-942e-e4c06968f525;Chicken;9;619.79
+efe03178-902b-4447-aa59-a37907b438fc;Hat;7;646.54
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Gorgeous Steel Keyboard;10;931.89
+41abd365-72a0-44ea-a4ad-2d345b201613;Steel Ball;8;108.15
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Concrete Mouse;4;28.9
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Salad;8;620.1
+88242305-2273-4d0d-9d41-f2f9538cc40f;Handmade Steel Fish;6;814.99
+41abd365-72a0-44ea-a4ad-2d345b201613;Pants;8;821.12
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Practical Keyboard;2;960.64
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Shoes;4;304.53
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Fresh Chair;9;289.93
+a0a354f0-bab7-455d-98fc-757add56cf2d;Handmade Towels;6;784.9
+513450fd-9db5-44ab-88db-7f7babc10ef8;Car;6;347.53
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Practical Fresh Chair;1;713.86
+76024480-d1d6-4b3c-8899-7c02107b83cb;Concrete Computer;2;984.59
+60c80671-66b2-4210-97ae-d3bb8be94deb;Soft Salad;9;390.38
+56b544b7-af79-4077-942e-e4c06968f525;Cheese;2;516.4
+a0a354f0-bab7-455d-98fc-757add56cf2d;Shoes;6;751.0
+76024480-d1d6-4b3c-8899-7c02107b83cb;Practical Wooden Pizza;1;320.0
+0b5b773d-1557-42c4-b967-7285c482624d;Awesome Table;8;813.37
+513450fd-9db5-44ab-88db-7f7babc10ef8;Rubber Table;4;806.88
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Incredible Rubber Car;8;975.1
+76024480-d1d6-4b3c-8899-7c02107b83cb;Shoes;3;632.96
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Fresh Bacon;5;324.64
+88242305-2273-4d0d-9d41-f2f9538cc40f;Handmade Bacon;8;969.74
+7fa48846-324c-475b-8d75-5a9edcd964a5;Fantastic Bacon;3;323.37
+60c80671-66b2-4210-97ae-d3bb8be94deb;Pants;4;51.54
+580cac7b-3095-4505-a30d-4bfa80789a93;Table;10;83.66
+56b544b7-af79-4077-942e-e4c06968f525;Used Shoes;9;882.89
+7fa48846-324c-475b-8d75-5a9edcd964a5;Refined Bacon;3;671.94
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Ball;9;846.38
+580cac7b-3095-4505-a30d-4bfa80789a93;Ergonomic Keyboard;10;866.17
+61620f20-063a-47cf-9ce5-f514abf9427d;Used Cotton Hat;9;314.32
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Tasty Metal Shirt;2;467.1
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Generic Car;6;81.62
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Car;4;239.11
+a0a354f0-bab7-455d-98fc-757add56cf2d;Frozen Chips;2;379.65
+60c80671-66b2-4210-97ae-d3bb8be94deb;Chair;8;320.41
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Refined Bacon;5;393.7
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Concrete Shoes;3;948.58
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Ergonomic Car;5;909.15
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Sleek Pizza;1;742.87
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Shirt;2;179.35
+77733d7d-6ebb-4139-95b6-f77cd22e7a45;Gloves;2;41.53
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Computer;1;41.48
+61620f20-063a-47cf-9ce5-f514abf9427d;Salad;1;890.87
+60c80671-66b2-4210-97ae-d3bb8be94deb;Unbranded Ball;10;555.22
+7fa48846-324c-475b-8d75-5a9edcd964a5;Gently Used Fresh Shoes;3;121.73
+580cac7b-3095-4505-a30d-4bfa80789a93;Mouse;4;962.49
+61620f20-063a-47cf-9ce5-f514abf9427d;Rubber Car;5;344.91
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Shirt;3;542.4
+a0a354f0-bab7-455d-98fc-757add56cf2d;Licensed Fresh Mouse;9;198.96
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Tasty Computer;5;74.8
+580cac7b-3095-4505-a30d-4bfa80789a93;Car;4;365.63
+580cac7b-3095-4505-a30d-4bfa80789a93;Incredible Bike;9;61.61
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Frozen Soap;1;629.54
+56b544b7-af79-4077-942e-e4c06968f525;Fantastic Bacon;9;800.29
+56b544b7-af79-4077-942e-e4c06968f525;Tuna;7;222.56
+513450fd-9db5-44ab-88db-7f7babc10ef8;Licensed Fish;8;403.47
+76024480-d1d6-4b3c-8899-7c02107b83cb;Fresh Mouse;5;79.92
+7fa48846-324c-475b-8d75-5a9edcd964a5;Cotton Keyboard;10;510.62
+efe03178-902b-4447-aa59-a37907b438fc;Licensed Fresh Hat;2;424.33
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Keyboard;7;40.9
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Concrete Mouse;6;271.42
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Metal Cheese;10;451.82
+513450fd-9db5-44ab-88db-7f7babc10ef8;Handcrafted Rubber Towels;4;825.79
+0b5b773d-1557-42c4-b967-7285c482624d;Steel Fish;9;634.3
+41abd365-72a0-44ea-a4ad-2d345b201613;Fresh Tuna;1;593.24
+d9c4c772-425d-4222-8f74-a64ce0e2278e;Cotton Salad;5;599.5
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Plastic Salad;2;800.54
+1bc91c58-4cea-4dc4-8b7d-7f9d5d596567;Fresh Bacon;4;334.43
+56b544b7-af79-4077-942e-e4c06968f525;Used Cotton Pants;9;907.24
+0b5b773d-1557-42c4-b967-7285c482624d;Table;6;624.27
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Handcrafted Metal Hat;3;333.2
+7fa48846-324c-475b-8d75-5a9edcd964a5;Licensed Plastic Fish;10;44.48
+4acfdd6e-3ddc-4e84-a2df-6470cdb376de;Cotton Cheese;7;504.1
+580cac7b-3095-4505-a30d-4bfa80789a93;Metal Gloves;8;391.7
+88242305-2273-4d0d-9d41-f2f9538cc40f;Cheese;7;640.3
+56b544b7-af79-4077-942e-e4c06968f525;Handcrafted Towels;3;469.25
+a0a354f0-bab7-455d-98fc-757add56cf2d;Cheese;7;591.96
+56b544b7-af79-4077-942e-e4c06968f525;Frozen Shirt;9;243.1
+56b544b7-af79-4077-942e-e4c06968f525;Sausages;5;830.7
+76024480-d1d6-4b3c-8899-7c02107b83cb;Practical Plastic Chair;5;622.65
+a0a354f0-bab7-455d-98fc-757add56cf2d;Bacon;8;561.15
+942c26e5-3fa5-444c-95c0-d41c77dbfccb;Chair;6;166.62
+513450fd-9db5-44ab-88db-7f7babc10ef8;Shoes;8;868.5
+7fa48846-324c-475b-8d75-5a9edcd964a5;Pizza;1;354.2
+c364dc77-87ec-4b0c-9565-3dac8e8f117f;Wooden Tuna;4;560.95
+60c80671-66b2-4210-97ae-d3bb8be94deb;Practical Mouse;1;826.54
+88242305-2273-4d0d-9d41-f2f9538cc40f;Plastic Sausages;3;889.3
+35a9d6de-a779-4289-a30d-dbd09afc1b59;Sleek Bike;2;439.3
+4cd379de-5009-45b1-bb77-08cd5784d9a5;Steel Salad;7;118.59
+61620f20-063a-47cf-9ce5-f514abf9427d;Frozen Shirt;3;694.13

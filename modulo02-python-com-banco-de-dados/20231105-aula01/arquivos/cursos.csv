@@ -1,11 +1,11 @@
-curso;data_inicio;carga_horaria;preco
-Python Básico;20230322;40;500.00
-Introdução à Data Science;20230410;30;800.00
-Web Development com Django;20230505;50;1000.00
-Machine Learning Fundamentals;20230615;45;1200.00
-Java para Iniciantes;20230701;35;600.00
-JavaScript Avançado;20230810;40;900.00
-SQL e Banco de Dados;20230920;25;400.00
-Introdução ao React;20231005;30;700.00
-Redes de Computadores;20231115;35;600.00
-HTML e CSS;20231201;20;300.00
+curso;carga_horaria;preco
+Python Básico;40;500.00
+Introdução à Data Science;30;800.00
+Web Development com Django;50;1000.00
+Machine Learning Fundamentals;45;1200.00
+Java para Iniciantes;35;600.00
+JavaScript Avançado;40;900.00
+SQL e Banco de Dados;25;400.00
+Introdução ao React;30;700.00
+Redes de Computadores;35;600.00
+HTML e CSS;20;300.00

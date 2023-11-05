@@ -46,8 +46,7 @@ if __name__ == "__main__":
 
     cursor.execute(comando)
 
-    {
-    "UF": [
+    lista_estados = [
         {"nome": "Acre", "sigla": "AC"},
         {"nome": "Alagoas", "sigla": "AL"},
         {"nome": "Amapá", "sigla": "AP"},
@@ -76,4 +75,3 @@ if __name__ == "__main__":
         {"nome": "Sergipe", "sigla": "SE"},
         {"nome": "Tocantins", "sigla": "TO"}
     ]
-}

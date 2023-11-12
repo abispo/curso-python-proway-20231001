@@ -58,5 +58,41 @@ para um usuário, não conseguimos criar um perfil para um usuário que não
 exista na tabela tb_usuarios.
 */
 
+-- As 2 instruções abaixo não serão executadas
 INSERT INTO tb_perfis(id, nome, data_de_nascimento) VALUES
 	(2, "João da Silva (perfil reserva)", "1997-01-01");
+    
+INSERT INTO tb_perfis(id, nome, data_de_nascimento) VALUES
+	(20, "João da Silva (perfil reserva)", "1997-01-01");
+    
+/*
+Vamos criar a tabela que irá armazenar as postagens realizadas pelos
+usuários. A regra é a seguinte: Cada usuário pode fazer quantas postagens
+quiser (nenhuma, uma ou várias). Porém cada postagem terá apenas 1 autor.
+*/
+
+CREATE TABLE IF NOT EXISTS tb_postagens(
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    usuario_id INTEGER NOT NULL,
+    titulo VARCHAR(200),
+    corpo TEXT NOT NULL,
+    
+    FOREIGN KEY (usuario_id) REFERENCES tb_usuarios(id)
+);
+SELECT * FROM tb_usuarios;
+
+INSERT INTO tb_postagens(usuario_id, titulo, corpo) VALUES
+	(1, "Python é legal", "Python é muito legal"),
+    (1, "Java é legal", "Java é legal");
+
+SELECT * FROM tb_postagens;
+
+/*
+Nesse caso, percebemos que 1 usuário pode fazer quantas postagens quiser no
+sistema. Enquanto cada postagem pode ter como autor apenas 1 usuário. Essa
+situação caracteriza uma relação de 1:N da tabela tb_usuarios para a tabela
+tb_postagens. Podemos também observar a quantidade de ocorrência de um id
+da tabela tb_usuarios na tabela tb_postagens. Na esmagadora maioria dos
+casos, a tabela que possui a coluna de chave estrangeira será o lado N
+da relação Um para Muitos (1:N).
+*/

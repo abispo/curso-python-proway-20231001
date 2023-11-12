@@ -14,7 +14,8 @@ Terceira Forma Normal (3FN).
 /*
 A 1FN(Primeira Forma Normal) define que, cada coluna em uma tabela deve 
 conter apenas valores atômicos ou indivisíveis, ou seja, valores únicos
-e não compostos. Essa Forma Normal ajuda a evitar a repetição de informações
+e não compostos. Também exige que exista ao menos uma coluna chave primária na tabela. 
+Essa Forma Normal ajuda a evitar a repetição de informações
 em uma mesma coluna (coluna multivalorada), o que pode levar a problema de
 redundância de dados, inconsistência e performance.
 */

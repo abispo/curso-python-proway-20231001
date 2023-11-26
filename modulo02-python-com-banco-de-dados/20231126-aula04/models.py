@@ -34,6 +34,7 @@ class Usuario(Base):
     nome_usuario = Column(String(200), nullable=False)
 
     perfil = relationship("Perfil", back_populates="usuario", uselist=False)
+    postagens = relationship("Postagem", back_populates="usuario")
 
     def __str__(self):
         return f"Usuario<email={self.email}, nome={self.perfil.nome}>"
@@ -66,6 +67,8 @@ class Postagem(Base):
     usuario_id = Column(Integer, ForeignKey("tb_usuarios.id"), nullable=False)
     titulo = Column(String(200), nullable=False)
     corpo = Column(Text)
+
+    usuario = relationship("Usuario", back_populates="postagens", uselist=False)
 
 
 class Categoria(Base):

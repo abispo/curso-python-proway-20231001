@@ -1,9 +1,12 @@
+import csv
+import os
+
 from config import sessao
 
 from models import Usuario, Perfil
 
 # Função para criação de usuário
-def criar_usuario(email, senha, nome_usuario, nome, data_de_nascimento):
+def criar_usuario(email, senha, nome_usuario, nome, data_de_nascimento=None):
 
     # Primeiro instanciamos a model Usuario, passando os valores para os parâmetros obrigatórios
     usuario = Usuario(
@@ -23,14 +26,16 @@ def criar_usuario(email, senha, nome_usuario, nome, data_de_nascimento):
     return usuario
 
 
-def criar_perfil(usuario, nome, data_de_nascimento):
+def criar_perfil(usuario, nome, data_de_nascimento=None):
 
     # Instanciar a classe Perfil
     perfil = Perfil(
         id=usuario.id,
-        nome=nome,
-        data_de_nascimento=data_de_nascimento
+        nome=nome
     )
+
+    if data_de_nascimento:
+        perfil.data_de_nascimento = data_de_nascimento
 
     # Adicionar o objeto instanciado à sessão
     sessao.add(perfil)
@@ -40,6 +45,21 @@ def criar_perfil(usuario, nome, data_de_nascimento):
 
     # Retornar o objeto instanciado
     return perfil
+
+def carregar_usuarios(nome_arquivo="usuarios.csv"):
+    
+    caminho_arquivo = os.path.join(os.getcwd(), "arquivos", nome_arquivo)
+
+    with open(caminho_arquivo, "r", encoding="utf-8") as arquivo:
+
+        arquivo_csv = csv.DictReader(arquivo, delimiter=';')
+
+        for linha in arquivo_csv:
+            usuario = Usuario(**linha)
+            sessao.add(usuario)
+            print(f"Usuario '{usuario.get('email')}' salvo com sucesso.")
+
+        sessao.commit()
 
 if __name__ == "__main__":
     pass

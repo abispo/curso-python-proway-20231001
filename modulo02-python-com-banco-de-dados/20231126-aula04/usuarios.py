@@ -18,15 +18,16 @@ def criar_usuario(email, senha, nome_usuario, nome, data_de_nascimento):
     # O método commit() confirma a transação, executando os comandos que estão em espera no banco de dados
     sessao.commit()
 
-    criar_perfil(nome, data_de_nascimento)
+    criar_perfil(usuario, nome, data_de_nascimento)
 
     return usuario
 
 
-def criar_perfil(nome, data_de_nascimento):
+def criar_perfil(usuario, nome, data_de_nascimento):
 
     # Instanciar a classe Perfil
     perfil = Perfil(
+        id=usuario.id,
         nome=nome,
         data_de_nascimento=data_de_nascimento
     )

@@ -38,3 +38,23 @@ As virtualenvs (ambientes virtuais) em Python são ferramentas que permitem cria
 Ao usar virtualenvs, os desenvolvedores podem criar ambientes Python isolados, facilitando a gestão de dependências e garantindo uma reprodução consistente do ambiente de desenvolvimento em diferentes contextos.
 
 `pip install sqlalchemy`
+
+# Desafio
+
+1) Criar uma função semelhante a função carregar_usuarios, mas para o carregamento de categorias. Deve ser criado um arquivo .csv com algumas categorias, que serão salvas no banco de dados quando esse arquivo for carregado. A estrutura do arquivo deve ser a seguinte:
+
+```
+nome
+```
+
+2) Criar uma função semelhante a função carregar_usuarios, mas para o carregamento de postagens. Deve ser criado um arquivo .csv com algumas postagens, que serão salvas no banco de dados quando esse arquivo for carregado. A estrutura do arquivo deve ser a seguinte:
+
+```csv
+usuario_id;titulo;corpo
+```
+
+3) Criar um atributo de ligação entre as models Postagem e Categoria. Dica: Pesquise sobre o parâmetro secondary.
+
+4) Na listagem das postagens, mostrar a informação do usuário que fez a postagem, e quais as categorias associadas a essa postagem. Utilizar os atributos de ligação para isso.
+
+5) Na listagem de usuário, mostrar a lista de posts que esse usuário fez, se tiver algum.

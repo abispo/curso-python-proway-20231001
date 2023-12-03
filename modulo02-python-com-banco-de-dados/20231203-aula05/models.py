@@ -5,7 +5,7 @@
 # Classe base das nossas models
 from config import Base
 
-from sqlalchemy import Column, Integer, String, Date, ForeignKey, Text, Table
+from sqlalchemy import Column, DateTime, Integer, String, Date, ForeignKey, Text, Table, func
 
 from sqlalchemy.orm import relationship
 
@@ -30,7 +30,8 @@ class Usuario(Base):
     # email, senha e nome_usuario serão colunas do tipo varchar(200), que não aceitam valores nulos
     email = Column(String(200), nullable=False)
     senha = Column(String(200), nullable=False)
-    nome_usuario = Column(String(200), nullable=False)
+    criado_em = Column(DateTime, server_default=func.now())
+    atualizado_em = Column(DateTime, onupdate=func.now())
 
     perfil = relationship("Perfil", back_populates="usuario", uselist=False)
     postagens = relationship("Postagem", back_populates="usuario")

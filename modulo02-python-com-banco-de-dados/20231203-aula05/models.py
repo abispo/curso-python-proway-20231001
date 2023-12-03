@@ -32,6 +32,7 @@ class Usuario(Base):
 
     perfil = relationship("Perfil", back_populates="usuario", uselist=False)
     postagens = relationship("Postagem", back_populates="usuario")
+    comentarios = relationship("Comentario", back_populates="usuario", uselist=True)
 
     def __str__(self):
         return f"Usuario<email={self.email}, nome={self.perfil.nome}>"
@@ -44,6 +45,8 @@ class Perfil(Base):
     id = Column(Integer, ForeignKey("tb_usuarios.id"), primary_key=True)
     nome = Column(String(200), nullable=False)
     data_de_nascimento = Column(Date)
+    criado_em = Column(DateTime, server_default=func.now())
+    alterado_em = Column(DateTime, onupdate=func.now())
 
     usuario = relationship("Usuario", back_populates="perfil", uselist=False)
 
@@ -64,8 +67,26 @@ class Postagem(Base):
     usuario_id = Column(Integer, ForeignKey("tb_usuarios.id"), nullable=False)
     titulo = Column(String(200), nullable=False)
     corpo = Column(Text)
+    criado_em = Column(DateTime, server_default=func.now())
+    alterado_em = Column(DateTime, onupdate=func.now())
 
     usuario = relationship("Usuario", back_populates="postagens", uselist=False)
+    comentarios = relationship("Comentario", back_populates="postagem", uselist=True)
+
+
+class Comentario(Base):
+
+    __tablename__ = "tb_comentarios"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    postagem_id = Column(Integer, ForeignKey("tb_postagens.id"), nullable=False)
+    usuario_id = Column(Integer, ForeignKey("tb_usuarios.id"), nullable=False)
+    texto = Column(String(200), nullable=False)
+    criado_em = Column(DateTime, server_default=func.now())
+    alterado_em = Column(DateTime, onupdate=func.now())
+
+    postagem = relationship("Postagem", back_populates="comentarios", uselist=False)
+    usuario = relationship("Usuario", back_populates="comentarios", uselist=False)
 
 
 class Categoria(Base):

@@ -15,7 +15,6 @@ postagens_categorias = Table(
     Column("postagem_id", Integer, ForeignKey("tb_postagens.id"), primary_key=True),
     Column("categoria_id", Integer, ForeignKey("tb_categorias.id"), primary_key=True)
 )
-object
 
 class Teste:
     pass

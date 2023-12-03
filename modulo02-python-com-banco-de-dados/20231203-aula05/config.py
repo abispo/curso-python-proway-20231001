@@ -10,8 +10,18 @@ from sqlalchemy.ext.declarative import declarative_base
 # sessionmaker é a função que irá criar a sessão de acesso ao banco de dados. Podemos ter mais de 1 sessão ativa, ou pra bancos de dados diferentes
 from sqlalchemy.orm import sessionmaker
 
+from dotenv import load_dotenv
+import os
+
+# Carrega as variáveis de ambiente do arquivo .env
+load_dotenv()
+
 # Abaixo está a string de conexão ao banco de dados.
-connection_string = "sqlite:///db.sqlite3"
+
+# SQLite
+# connection_string = "sqlite:///db.sqlite3"
+
+connection_string = os.getenv("CONNECTION_STRING")
 
 # Abaixo criamos o objeto que representa a conexão ao banco de dados. O primeiro argumento é a connection_string, o argumento echo indica se os comandos SQL que serão executados, serão mostrados no terminal.
 conexao = create_engine(connection_string, echo=True)

@@ -16,9 +16,6 @@ postagens_categorias = Table(
     Column("categoria_id", Integer, ForeignKey("tb_categorias.id"), primary_key=True)
 )
 
-class Teste:
-    pass
-
 class Usuario(Base):
     
     # __tablename__ indica o nome que a tabela terá no banco de dados

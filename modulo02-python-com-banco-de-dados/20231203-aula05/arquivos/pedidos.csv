@@ -1,0 +1,37 @@
+pedido_id;nome;email;sku;nome_produto;quantidade;data_do_pedido
+a3f81e7b-4eb5-4d66-8a9e-1c873c2431eb;Ana Silva;ana.silva@email.com;dd6d6b28-18c9-4c12-ba3f-6e1a8e91c44a;Caneta Esferográfica Azul;3;2023-09-05
+a3f81e7b-4eb5-4d66-8a9e-1c873c2431eb;Ana Silva;ana.silva@email.com;23a0f0a0-8b95-4d92-8193-6e0bf5cb2061;Bloco de Notas Pequeno;2;2023-09-05
+2e384c66-b29c-4a0b-9ec2-2fb0e88ab1c8;Carlos Santos;carlos.santos@email.com;39d9f3cc-b5f7-48f7-9c7d-2049c0701c2c;Lápis HB;5;2023-09-10
+2e384c66-b29c-4a0b-9ec2-2fb0e88ab1c8;Carlos Santos;carlos.santos@email.com;c75b01d7-2c9a-4b59-9b84-17293516f534;Caderno Pautado Grande;2;2023-09-10
+c631af8e-e969-4390-94d2-0996ee79e896;Mariana Oliveira;mariana.oliveira@email.com;a001db48-332b-4f13-b8ad-d16fcb371b89;Borracha de Apagar;1;2023-09-15
+c631af8e-e969-4390-94d2-0996ee79e896;Mariana Oliveira;mariana.oliveira@email.com;8f7cf179-6a0b-4d3f-bf56-d0514c9cb4cf;Marcadores Coloridos;4;2023-09-15
+fd1858f1-32a2-4377-ba9b-6ed5447b30f1;Rafael Lima;rafael.lima@email.com;56b2ed04-4f3a-47f1-b5c1-2b654bf1ecdb;Grampeador Compacto;1;2023-09-20
+fd1858f1-32a2-4377-ba9b-6ed5447b30f1;Rafael Lima;rafael.lima@email.com;10a59bf4-06b8-4b76-9b29-149b86b07a7c;Pasta com Elástico;3;2023-09-20
+fd1858f1-32a2-4377-ba9b-6ed5447b30f1;Rafael Lima;rafael.lima@email.com;72d42efb-72e4-4d7e-90e4-6b87a1d5c61d;Apontador Duplo;2;2023-09-20
+bc50f1e4-8c15-4e0f-8e6a-66fc70a861f2;Juliana Martins;juliana.martins@email.com;8f7cf179-6a0b-4d3f-bf56-d0514c9cb4cf;Marcadores Coloridos;2;2023-09-25
+bc50f1e4-8c15-4e0f-8e6a-66fc70a861f2;Juliana Martins;juliana.martins@email.com;72d42efb-72e4-4d7e-90e4-6b87a1d5c61d;Apontador Duplo;2;2023-09-25
+ff65066c-217b-44c2-8b20-5eb4b55447ad;Pedro Almeida;pedro.almeida@email.com;72d42efb-72e4-4d7e-90e4-6b87a1d5c61d;Apontador Duplo;1;2023-10-01
+ff65066c-217b-44c2-8b20-5eb4b55447ad;Pedro Almeida;pedro.almeida@email.com;d32a8b09-4a6d-487a-84d5-289a81b1a3e8;Bolsa Plástica para Documentos;2;2023-10-01
+ff65066c-217b-44c2-8b20-5eb4b55447ad;Pedro Almeida;pedro.almeida@email.com;fa44197e-45c8-47ed-8b87-69b8395e8f03;Clips Metálicos;1;2023-10-01
+e3cf4db9-ea1b-4772-bcb4-d3a0e5ab598f;Camila Costa;camila.costa@email.com;fa44197e-45c8-47ed-8b87-69b8395e8f03;Clips Metálicos;1;2023-10-05
+e3cf4db9-ea1b-4772-bcb4-d3a0e5ab598f;Camila Costa;camila.costa@email.com;b1dfcf69-9ad3-4e29-a862-92e88942c887;Régua de 30cm;2;2023-10-05
+86aa6a35-e68b-4939-977b-0fc94a1dcb15;Lucas Rodrigues;lucas.rodrigues@email.com;c0f7ef12-b2df-4d82-af06-d17f1ed15ec8;Caneta Marca Texto Amarela;4;2023-10-10
+86aa6a35-e68b-4939-977b-0fc94a1dcb15;Lucas Rodrigues;lucas.rodrigues@email.com;6f1a1c29-7ee2-4db7-91e6-3d35c2db2290;Papel Sulfite A4;2;2023-10-10
+d188c2ee-5933-4ff8-8b1d-d911ee168c46;Beatriz Pereira;beatriz.pereira@email.com;ee4c6a7f-60de-421e-8910-527cc05a3a8b;Estojo Escolar;1;2023-10-15
+d188c2ee-5933-4ff8-8b1d-d911ee168c46;Beatriz Pereira;beatriz.pereira@email.com;942667bf-3710-4e80-bcc3-774031ebe3e7;Caneta Gel Preta;3;2023-10-15
+ba3cfcb7-47ef-46e9-a6b0-91d8b77a24b8;Fernando Nunes;fernando.nunes@email.com;23a0f0a0-8b95-4d92-8193-6e0bf5cb2061;Bloco de Notas Pequeno;3;2023-10-20
+ba3cfcb7-47ef-46e9-a6b0-91d8b77a24b8;Fernando Nunes;fernando.nunes@email.com;c75b01d7-2c9a-4b59-9b84-17293516f534;Caderno Pautado Grande;1;2023-10-20
+11e068e4-1ed1-4b9a-8e12-ef4c90cb5f9f;Fernanda Mendes;fernanda.mendes@email.com;8a5048bf-6eb3-4b41-a16c-aa3e6c4426af;Caneta Gel Colorida;2;2023-10-25
+11e068e4-1ed1-4b9a-8e12-ef4c90cb5f9f;Fernanda Mendes;fernanda.mendes@email.com;e5ea3b58-1ef8-4f79-9a7a-0f4e4684beef;Agenda Diária de Bolso;1;2023-10-25
+11e068e4-1ed1-4b9a-8e12-ef4c90cb5f9f;Fernanda Mendes;fernanda.mendes@email.com;7e62bc3e-15c5-4e12-8ef1-d7362086d60d;Borracha em Forma de Animal;3;2023-10-25
+22aefc18-c108-4a61-a440-13c96491f53d;Gustavo Alves;gustavo.alves@email.com;ef2fcf55-574b-40e6-b418-c6b29568b13e;Folhas Adesivas Coloridas;1;2023-11-01
+22aefc18-c108-4a61-a440-13c96491f53d;Gustavo Alves;gustavo.alves@email.com;a7d49f8e-02d0-4965-b29f-c50d4a1b6063;Lápis de Cor Metálico;4;2023-11-01
+33b4b188-16a2-42f2-ba8e-2ef974bfb7f4;Renato Oliveira;renato.oliveira@email.com;b618453e-8d23-478e-9b02-0d3b99d3329c;Régua Flexível;2;2023-11-05
+44a9a6cf-0c7f-442f-8c17-929a095d2497;Larissa Costa;larissa.costa@email.com;fbae48e8-77b3-42b9-af20-c59d7f684762;Bloco de Notas Autoadesivo;2;2023-11-10
+44a9a6cf-0c7f-442f-8c17-929a095d2497;Larissa Costa;larissa.costa@email.com;5e8eeaf4-0071-45d7-bb3b-3635e9ebbe71;Caneta Esferográfica Preta;1;2023-11-10
+44a9a6cf-0c7f-442f-8c17-929a095d2497;Larissa Costa;larissa.costa@email.com;870e836b-5b8e-4c64-9ee2-c60e865e04d1;Pasta com Aba Elástica;3;2023-11-10
+55dfbe23-b6bf-4a2b-94d9-3c01dce1d977;Hugo Santos;hugo.santos@email.com;f5b6888d-ced4-482a-9485-45a0d13a3e9b;Tesoura Escolar com Estampa;1;2023-11-15
+66f73a1d-7929-4c80-8df2-61d6742bea0e;Isabela Lima;isabela.lima@email.com;ba3cfcb7-47ef-46e9-a6b0-91d8b77a24b8;Fernando Nunes;2;2023-11-20
+66f73a1d-7929-4c80-8df2-61d6742bea0e;Isabela Lima;isabela.lima@email.com;ba3cfcb7-47ef-46e9-a6b0-91d8b77a24b8;Fernando Nunes;1;2023-11-20
+66f73a1d-7929-4c80-8df2-61d6742bea0e;Isabela Lima;isabela.lima@email.com;ff65066c-217b-44c2-8b20-5eb4b55447ad;Pedro Almeida;4;2023-11-20
+66f73a1d-7929-4c80-8df2-61d6742bea0e;Isabela Lima;isabela.lima@email.com;ff65066c-217b-44c2-8b20-5eb4b55447ad;Pedro Almeida;2;2023-11-20

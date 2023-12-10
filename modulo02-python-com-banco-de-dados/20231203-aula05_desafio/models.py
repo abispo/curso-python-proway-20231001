@@ -1,5 +1,5 @@
 
-from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Float
+from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Float, Date
 from sqlalchemy.orm import relationship
 from config import Base
 
@@ -38,3 +38,13 @@ class Produto(Base):
     nome = Column(String(200), nullable=False)
     descricao = Column(String(500), nullable=False)
     preco_unitario = Column(Float, nullable=False)
+
+
+
+class Pedido(Base):
+
+    __tablename__ = "tb_pedidos"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    usuario_id = Column(Integer, ForeignKey("tb_usuarios.id"), nullable=False)
+    data_do_pedido = Column(Date, nullable=False)

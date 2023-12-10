@@ -13,6 +13,7 @@ class Usuario(Base):
     senha = Column(String(200), nullable=False)
 
     perfil = relationship("Perfil", back_populates="usuario", uselist=False)
+    pedidos = relationship("Pedido", back_populates="usuario", uselist=True)
 
 
 class Perfil(Base):
@@ -50,6 +51,7 @@ class Pedido(Base):
     usuario_id = Column(Integer, ForeignKey("tb_usuarios.id"), nullable=False)
     data_do_pedido = Column(Date, nullable=False)
 
+    usuario = relationship("Usuario", back_populates="pedidos", uselist=False)
     produtos = relationship("ProdutoPedido", back_populates="pedido", uselist=True)
 
 

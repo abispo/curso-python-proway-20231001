@@ -12,7 +12,7 @@ import requests
 
 resposta = requests.get("https://pokeapi.co/api/v2/pokemon/bulbasaur")
 
-pokémon_info = resposta.json()      # Retorna a estrutura de JSON como um dicionário Python
+pokemon_info = resposta.json()      # Retorna a estrutura de JSON como um dicionário Python
 
 ```
 

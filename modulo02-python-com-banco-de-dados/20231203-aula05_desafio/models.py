@@ -39,6 +39,7 @@ class Produto(Base):
     descricao = Column(String(500), nullable=False)
     preco_unitario = Column(Float, nullable=False)
 
+    pedidos = relationship("ProdutoPedido", back_populates="produto", uselist=True)
 
 
 class Pedido(Base):
@@ -48,3 +49,18 @@ class Pedido(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     usuario_id = Column(Integer, ForeignKey("tb_usuarios.id"), nullable=False)
     data_do_pedido = Column(Date, nullable=False)
+
+    produtos = relationship("ProdutoPedido", back_populates="pedido", uselist=True)
+
+
+# Tabela associativa entre produtos e pedidos. Como teremos mais dados além das chaves estrangeiras, é preferível que nesses casos criemos as models da maneira padrão (e não utilizando a classe Table)
+class ProdutoPedido(Base):
+
+    __tablename__ = "tb_produtos_pedidos"
+
+    produto_id = Column(Integer, ForeignKey("tb_produtos.id"), primary_key=True)
+    pedido_id = Column(Integer, ForeignKey("tb_pedidos.id"), primary_key=True)
+    quantidade = Column(Integer, nullable=False)
+
+    produto = relationship("Produto", back_populates="pedidos", uselist=False)
+    pedido = relationship("Pedido", back_populates="produtos", uselist=False)

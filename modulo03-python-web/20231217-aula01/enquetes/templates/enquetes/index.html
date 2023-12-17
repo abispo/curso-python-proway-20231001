@@ -1,0 +1,9 @@
+{% if tres_ultimas_perguntas %}
+    <ul>
+        {% for pergunta in tres_ultimas_perguntas %}
+            <li><a href="/enquetes/{{ pergunta.id }}/">{{ pergunta.texto_pergunta }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Não há perguntas cadastradas.</p>
+{% endif %}

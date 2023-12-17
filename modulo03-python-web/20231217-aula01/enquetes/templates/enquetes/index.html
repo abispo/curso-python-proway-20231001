@@ -1,6 +1,6 @@
-{% if tres_ultimas_perguntas %}
+{% if todas_as_perguntas %}
     <ul>
-        {% for pergunta in tres_ultimas_perguntas %}
+        {% for pergunta in todas_as_perguntas %}
             <li><a href="/enquetes/{{ pergunta.id }}/">{{ pergunta.texto_pergunta }}</a></li>
         {% endfor %}
     </ul>

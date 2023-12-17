@@ -4,9 +4,9 @@ from django.shortcuts import render, get_object_or_404
 from .models import Pergunta
 
 def index(request):
-    tres_ultimas_perguntas = Pergunta.objects.order_by("-data_publicacao")[:3]
+    todas_as_perguntas = Pergunta.objects.order_by("-data_publicacao")
 
-    contexto = {"tres_ultimas_perguntas": tres_ultimas_perguntas}
+    contexto = {"todas_as_perguntas": todas_as_perguntas}
 
     return render(request, "enquetes/index.html", contexto)
 

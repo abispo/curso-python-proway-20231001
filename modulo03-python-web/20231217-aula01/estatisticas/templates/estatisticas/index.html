@@ -1,0 +1,25 @@
+<h1>Estatísticas</h1>
+<hr>
+
+{% if quantidade_de_perguntas %}
+    <h2>Quantidade de perguntas cadastradas:</h2>
+    <h3>{{ quantidade_de_perguntas }}</h3>
+
+    <h2>Quantidade de opções cadastradas:</h2>
+    <h3>{{ quantidade_de_opcoes }}</h3>
+
+    <h2>Lista de perguntas ordenadas pela quantidade de votos:</h2>
+    <ul>
+        {% for pergunta in perguntas_ordenadas_por_votos %}
+        <li>{{ pergunta }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Média de opções por pergunta</h2>
+    <h3>{{ media_opcoes_por_pergunta }}</h3>
+{% else %}
+    <h1>Não há perguntas cadastradas</h1>
+{% endif %}
+
+<hr>    
+<a href="{% url 'enquetes:index' %}">Ir para a página principal</a>

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'enquetes.apps.EnquetesConfig',
+    'estatisticas.apps.EstatisticasConfig',
 ]
 
 MIDDLEWARE = [

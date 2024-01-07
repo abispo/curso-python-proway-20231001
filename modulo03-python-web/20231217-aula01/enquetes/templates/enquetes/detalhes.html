@@ -1,8 +1,15 @@
-<h1>{{ pergunta.texto_pergunta }}</h1>
-<hr />
+<form action="{% url 'enquetes:votar' pergunta.id %}" method="POST">
+    {% csrf_token %}
+    <fieldset>
+        <legend><h1>{{ pergunta.texto_pergunta }}</h1></legend>
+        {% if mensagem_erro %}
+            <p><strong>{{ mensagem_erro }}</strong></p>
+        {% endif %}
 
-<ul>
-    {% for opcao in pergunta.opcao_set.all %}
-        <li>{{ opcao.texto_opcao }}</li>
-    {% endfor %}
-</ul>
+        {% for opcao in pergunta.opcao_set.all %}
+            <input type="radio" name="opcao" id="opcao{{ forloop.counter }}" value={{ opcao.id }}>
+            <label for="opcao{{ forloop.counter }}">{{ opcao.texto_opcao }}</label>
+        {% endfor %}
+    </fieldset>
+    <input type="submit" value="Votar">
+</form>

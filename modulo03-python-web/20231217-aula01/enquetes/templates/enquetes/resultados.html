@@ -8,5 +8,5 @@
 </ul>
 
 <hr>
-Link: votar novamente?<br>
-Link: Ir para página principal
+<a href="{% url 'enquetes:detalhe' pergunta.id %}">Votar novamente</a><br>
+<a href="{% url 'enquetes:index' %}">Ir para a página principal</a>

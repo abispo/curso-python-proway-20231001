@@ -141,3 +141,5 @@ INTERNAL_IPS = [
 
 LOGIN_REDIRECT_URL = 'agenda:index'
 LOGOUT_REDIRECT_URL = 'agenda:index'
+
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"

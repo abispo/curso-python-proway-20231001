@@ -3,6 +3,13 @@
 {% block conteudo %}
     <h2>Sistema de Agendamento</h2>
     {% if user.is_authenticated %}
-        <h6>Você está autenticado</h6>
+        <h5>Você está autenticado como {{ user.username }}. Seu email é {{ user.email }}.</h5>
+        <form action="{% url "logout" %}" method="POST">
+            {% csrf_token %}
+            <button type="submit">Efetuar logout</button>
+        </form>
+    {% else %}
+        <h5><a href="{% url "login" %}">Ir para a página de login</a></h5>
     {% endif %}
+
 {% endblock conteudo %}

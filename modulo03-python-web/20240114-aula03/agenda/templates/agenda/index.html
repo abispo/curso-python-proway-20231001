@@ -2,4 +2,7 @@
 
 {% block conteudo %}
     <h2>Sistema de Agendamento</h2>
+    {% if user.is_authenticated %}
+        <h6>Você está autenticado</h6>
+    {% endif %}
 {% endblock conteudo %}

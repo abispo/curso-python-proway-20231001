@@ -5,13 +5,14 @@
     <hr>
     {% if form.errors %}
         <ul>
-            {% for title, message in form.errors.items %}
-                <li>{{ title }}: {{ message }}</li>
+            {% for _, message in form.errors.items %}
+                <li>{{ message }}</li>
             {% endfor %}            
         </ul>
-    {% endif %}
+    {% endif %} 
 
     <form action="{% url 'login' %}" method="POST">
+        {% csrf_token %}
         <div>
             <label for="username">Usuário</label>
             <input type="text" name="username" id="username">

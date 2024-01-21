@@ -4,7 +4,7 @@ class Clube(models.Model):
     nome = models.CharField(max_length=100)
 
     def __str__(self) -> str:
-        return self.name
+        return self.nome
     
     class Meta:
         db_table = "tb_clubes"
@@ -28,8 +28,7 @@ class Partida(models.Model):
     gols_clube_mandante = models.IntegerField(default=0)
     gols_clube_visitante = models.IntegerField(default=0)
     estadio = models.CharField(max_length=200, null=True, blank=True)
-    hora = models.TimeField(null=True, blank=True)
-    data = models.DateField(null=True, blank=True)
+    data_hora = models.DateTimeField(null=True, blank=True)
 
     def __str__(self) -> str:
         return f"{self.clube_mandante.nome} {self.gols_clube_mandante} X {self.gols_clube_visitante} {self.clube_visitante.nome}"

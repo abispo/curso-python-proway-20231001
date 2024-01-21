@@ -1,0 +1,1 @@
+Fonte dos dados: https://github.com/abispo/Brasileirao_Dataset/

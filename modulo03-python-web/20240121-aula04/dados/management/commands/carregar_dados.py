@@ -9,6 +9,19 @@ from django.core.management.base import BaseCommand, CommandParser
 
 from dados.models import Clube, Partida, Rodada
 
+def converter_data(data_partida, hora_partida, formato_data_hora, ano=None):
+
+    if ano:
+        data_partida = f"{data_partida}/{ano}"
+
+    data_hora = datetime.strptime(
+        f"{data_partida} {hora_partida}",
+        formato_data_hora
+    )
+
+    return data_hora
+
+
 
 class Command(BaseCommand):
     help = "Carrega os dados de um arquivo e salva no banco de dados."
@@ -50,15 +63,31 @@ class Command(BaseCommand):
                     hora_partida = partida.get("hour")
                     data_partida = partida.get("date")
 
-                    formato_data_hora = "%d/%m/%Y %H:%M"
 
-                    if len(data_partida) == 8:
+                    if len(data_partida) == 10:
+                        formato_data_hora = "%d/%m/%Y %H:%M"
+
+                        data_hora = converter_data(
+                            data_partida, hora_partida, formato_data_hora
+                        )
+                    
+                    elif len(data_partida) == 8:
                         formato_data_hora = "%d/%m/%y %H:%M"
 
-                    data_hora = datetime.strptime(
-                        f"{data_partida} {hora_partida}",
-                        formato_data_hora
-                    )
+                        data_hora = converter_data(
+                            data_partida, hora_partida, formato_data_hora
+                        )
+                    
+                    else:
+                        formato_data_hora = "%d/%m/%Y %H:%M"
+
+                        data_hora = converter_data(
+                            data_partida,
+                            hora_partida,
+                            formato_data_hora,
+                            ano=ano
+                        )
+
 
                     data_hora = timezone.make_aware(
                         data_hora

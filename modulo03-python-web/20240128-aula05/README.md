@@ -15,3 +15,4 @@ Sistema simples de agendamento para diversos negócios (salão de beleza, barbei
     * Ao final, o usuário poderá avaliar o serviço e fazer um comentário
 5. O Profissional poderá cancelar um agendamento
     * Após o cancelamento, o profissional poderá enviar uma mensagem ao Usuário, explicando o cancelamento
+6. O Cliente também pode cancelar o próprio agendamento

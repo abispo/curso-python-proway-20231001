@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block principal %}
+
+    <h1>Dados do Brasileirão</h1>
+    <hr>
+
+    {% if anos %}
+        <div>
+            {% for ano in anos %}
+                <div>
+                    <a href="{% url "dados:lista_rodadas" ano %}">Campeonato Brasileiro de {{ ano }}.</a>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <h1>Não há dados a serem exibidos.</h1>
+    {% endif %}
+
+{% endblock principal %}

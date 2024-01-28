@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block titulo %}Rodadas do Campeonato Brasileiro de {{ ano }}{% endblock titulo %}
+
+{% block principal %}
+    <div>
+        <h1>Campeonato Brasileiro de {{ ano }} - Rodadas</h1>
+        <hr>
+    </div>
+
+    <div>
+        {% for rodada in todas_rodadas %}
+            <div>
+                <p>Resultados da rodada {{ rodada.numero }} do Campeonato Brasileiro de {{ ano }}.</p>
+            </div>
+        {% endfor %}
+    </div>
+    <hr>
+    <div>
+        <a href="{% url "dados:index" %}">Voltar para a página principal</a>
+    </div>
+{% endblock principal %}

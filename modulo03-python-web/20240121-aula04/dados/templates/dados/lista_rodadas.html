@@ -11,7 +11,7 @@
     <div>
         {% for rodada in todas_rodadas %}
             <div>
-                <p>Resultados da rodada {{ rodada.numero }} do Campeonato Brasileiro de {{ ano }}.</p>
+                <a href="{% url "dados:detalhe_rodada" ano rodada.id %}">Resultados da rodada {{ rodada.numero }} do Campeonato Brasileiro de {{ ano }}.</a>
             </div>
         {% endfor %}
     </div>

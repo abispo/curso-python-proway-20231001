@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block titulo %}Resultados da rodada {{ rodada.numero }}{% endblock titulo %}
+
+{% block principal %}
+    <div>
+        <h1>Lista de Partidas da rodada {{ rodada.numero }}</h1>
+        <hr>
+    </div>
+
+    <div>
+        {% for partida in todas_partidas %}
+        <div>
+            <p>{{ partida.clube_mandante }} {{ partida.gols_clube_mandante}} X {{ partida.gols_clube_visitante }} {{ partida.clube_visitante }}</p> 
+        </div>
+        <div>
+            <p>Partida realizada no estádio {{ partida.estadio }} em {{ partida.data_hora|date:"H:i d/m/Y" }}</p>
+        </div>
+        <hr>
+        {% endfor %}
+    </div>
+{% endblock principal %}

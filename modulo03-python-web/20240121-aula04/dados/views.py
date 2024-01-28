@@ -1,6 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 
-from dados.models import Rodada
+from dados.models import Partida, Rodada
 
 def index(request):
 
@@ -17,5 +17,15 @@ def lista_rodadas(request, ano):
     return render(request, "dados/lista_rodadas.html", {"ano": ano, "todas_rodadas": todas_rodadas})
 
 
-def partidas(request, ano, rodada_id):
-    return render(request, "dados/partidas.html")
+def detalhe_rodada(request, ano, rodada_id):
+    rodada = get_object_or_404(Rodada, pk=rodada_id, ano=ano)
+    todas_partidas = Partida.objects.filter(rodada=rodada)
+
+    return render(
+        request,
+        "dados/detalhe_rodada.html",
+        {
+            "rodada": rodada,
+            "todas_partidas": todas_partidas
+        }
+    )

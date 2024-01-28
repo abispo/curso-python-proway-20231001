@@ -19,4 +19,8 @@
         <hr>
         {% endfor %}
     </div>
+    <div>
+        <a href="{% url "dados:lista_rodadas" rodada.ano %}">Voltar para o detalhe da rodada</a>
+        <a href="{% url "dados:index" %}">Voltar para a página principal</a>
+    </div>
 {% endblock principal %}

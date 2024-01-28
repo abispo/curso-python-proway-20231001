@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    <h2>Login</h2>
+    <hr>
+    {% if form.errors %}
+        <ul>
+            {% for _, message in form.errors.items %}
+                <li>{{ message }}</li>
+            {% endfor %}            
+        </ul>
+    {% endif %} 
+
+    <form action="{% url 'login' %}" method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="username">Usuário</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <button type="submit">Efetuar Login</button>
+        </div>
+    </form>
+    <div>
+        <a href="{% url "password_reset" %}">Esqueci a senha</a>
+    </div>
+{% endblock conteudo %}

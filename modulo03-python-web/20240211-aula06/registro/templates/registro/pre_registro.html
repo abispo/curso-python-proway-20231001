@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    <div>
+        <p>Realize o seu pré-cadastro. Informe o seu e-mail e após clicar no botão "Enviar", será enviado um link de confirmação de cadastro para o seu e-mail</p>
+    </div>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="email">Informe o seu e-mail</label>
+            {{ form.email }}
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+{% endblock conteudo %}

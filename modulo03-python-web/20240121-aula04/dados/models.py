@@ -2,6 +2,7 @@ from django.db import models
 
 class Clube(models.Model):
     nome = models.CharField(max_length=100)
+    escudo = models.CharField(max_length=100, default="generico.svg")
 
     def __str__(self) -> str:
         return self.nome

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block titulo %}Resultados da rodada {{ rodada.numero }}{% endblock titulo %}
 
@@ -8,13 +9,15 @@
         <hr>
     </div>
 
-    <div>
+    <div class="lista-partidas-rodada">
         {% for partida in todas_partidas %}
-        <div>
-            <p>{{ partida.clube_mandante }} {{ partida.gols_clube_mandante}} X {{ partida.gols_clube_visitante }} {{ partida.clube_visitante }}</p> 
-        </div>
-        <div>
-            <p>Partida realizada no estádio {{ partida.estadio }} em {{ partida.data_hora|date:"H:i d/m/Y" }}</p>
+        <div class="item-partida-rodada">
+            <div class="partida-rodada">
+                <p><img class="img-partida" src="{% get_static_prefix %}dados/img/{{ partida.clube_mandante.escudo }}">{{ partida.clube_mandante }} {{ partida.gols_clube_mandante}} X {{ partida.gols_clube_visitante }} {{ partida.clube_visitante }} <img class="img-partida" src="{% get_static_prefix %}dados/img/{{ partida.clube_visitante.escudo }}"></p> 
+            </div>
+            <div class="estadio-partida-rodada">
+                <p>Partida realizada no estádio {{ partida.estadio }} em {{ partida.data_hora|date:"H:i d/m/Y" }}</p>
+            </div>
         </div>
         <hr>
         {% endfor %}

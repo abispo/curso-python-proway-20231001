@@ -1,0 +1,12 @@
+.item-partida-rodada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:beige;
+}
+
+.img-partida {
+    width: 25px;
+    height: 25px;
+}

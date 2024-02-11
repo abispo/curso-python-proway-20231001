@@ -1,18 +1,14 @@
 {% extends "base.html" %}
 
 {% block conteudo %}
-    <div>
-        <p>Realize o seu pré-cadastro. Informe o seu e-mail e após clicar no botão "Enviar", será enviado um link de confirmação de cadastro para o seu e-mail</p>
-    </div>
-
     <form action="" method="POST">
         {% csrf_token %}
         <div>
-            <label for="email">Informe o seu e-mail</label>
             {{ form.email }}
+            <div id="ajuda-email" class="form-text mb-3">Realize o seu pré-cadastro. Informe o seu e-mail e após clicar no botão "Enviar", será enviado um link de confirmação de cadastro para o seu e-mail</div>
         </div>
-        <div>
-            <input type="submit" value="Enviar">
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
     </form>
 {% endblock conteudo %}

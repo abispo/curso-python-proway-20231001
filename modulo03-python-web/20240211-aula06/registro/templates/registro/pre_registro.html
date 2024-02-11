@@ -1,6 +1,19 @@
 {% extends "base.html" %}
 
 {% block conteudo %}
+
+    {% if form.errors %}
+        <div class="row">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <ul class="list-unstyled">
+                    {% for _, erro in form.errors.items %}
+                        <li><strong>{{ erro }}</strong></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endif %}
+
     <form action="" method="POST">
         {% csrf_token %}
         <div>

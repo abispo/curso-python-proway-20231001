@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+
+    {% if form.errors %}
+        <div class="row">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <ul class="list-unstyled">
+                    {% for _, erro in form.errors.items %}
+                        <li><strong>{{ erro }}</strong></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endif %}
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div>
+            {{ form.email }}
+            <div id="ajuda-email" class="form-text mb-3">Realize o seu pré-cadastro. Informe o seu e-mail e após clicar no botão "Enviar", será enviado um link de confirmação de cadastro para o seu e-mail</div>
+        </div>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+{% endblock conteudo %}

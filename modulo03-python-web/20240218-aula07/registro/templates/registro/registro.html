@@ -10,14 +10,14 @@
 
     {% if mensagem_erro %}
         <div class="row">
-            <div class="col alert alert-warning alert-dismissible fade show" role="alert">
+            <div class="col alert alert-danger alert-dismissible fade show" role="alert">
                 {{ mensagem_erro }}
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         </div>
     {% endif %}
 
-    <form action="#" method="POST">
+    <form action="" method="POST">
         {% csrf_token %}
         <div class="row mb-3">
             <div class="col form-floating">
@@ -48,8 +48,8 @@
             </div>
         </div>
 
-        <input type="hidden" name="id_pre_registro" value={{ pre_registro.uuid }}>
-        <input type="hidden" name="email" value={{ pre_registro.email }}>
+        <input type="hidden" name="id_pre_registro" value={{ id_pre_registro }}>
+        <input type="hidden" name="email" value={{ email }}>
 
         <div class="row">
             <div class="col">

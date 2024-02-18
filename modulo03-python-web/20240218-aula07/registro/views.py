@@ -78,7 +78,14 @@ def registro(request: HttpRequest):
                 }
             )
         
-        return render(request, "registro/registro.html", {"pre_registro": pre_registro})
+        return render(
+            request,
+            "registro/registro.html",
+            {
+                "id_pre_registro": pre_registro.uuid,
+                "email": pre_registro.email
+            }
+        )
 
     elif request.method == "POST":
         try:
@@ -93,7 +100,7 @@ def registro(request: HttpRequest):
 
             mensagem_erro = None
 
-            if not todos_os_dados_estao_preenchidos(nome, sobrenome, username, senha, confirmacao_senha, id_pre_registro):
+            if not todos_os_dados_estao_preenchidos(nome, sobrenome, username, senha, confirmacao_senha, id_pre_registro, email):
                 mensagem_erro = "Todos os dados são obrigatórios"
 
             elif username_ou_email_ja_cadastrado(username=username, email=email):
@@ -106,7 +113,11 @@ def registro(request: HttpRequest):
                 return render(
                     request,
                     "registro/registro.html",
-                    {"mensagem_erro": mensagem_erro}
+                    {
+                        "mensagem_erro": mensagem_erro,
+                        "id_pre_registro": id_pre_registro,
+                        "email": email
+                    }
                 )
 
         except:

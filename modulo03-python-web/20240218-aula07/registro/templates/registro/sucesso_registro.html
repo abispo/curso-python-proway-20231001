@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<div class="row d-flex justify-content-center mt-3">
+    <div class="col-9">
+        <div class="alert alert-success" role="alert">
+            Seu registro foi realizado com sucesso! <a href="{% url "login" %}">Clique aqui</a> para ir à página de login.
+        </div>
+    </div>
+</div>
+{% endblock conteudo %}

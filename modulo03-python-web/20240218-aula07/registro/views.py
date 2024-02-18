@@ -119,6 +119,20 @@ def registro(request: HttpRequest):
                         "email": email
                     }
                 )
+            
+            User.objects.create_user(
+                username=username,
+                email=email,
+                password=senha,
+                first_name=nome,
+                last_name=sobrenome
+            )
+
+            pre_registro = PreRegistro.objects.get(uuid=id_pre_registro)
+            pre_registro.valido = False
+            pre_registro.save()
+
+            return redirect("registro:sucesso_registro")
 
         except:
             pass
@@ -137,3 +151,7 @@ def reenviar_pre_registro(request: HttpRequest, uuid: str):
         enviar_email(request, pre_registro)
         
         return render(request, "registro/envio_email_pre_registro.html")
+    
+
+def sucesso_registro(request: HttpRequest):
+    return render(request, "registro/sucesso_registro.html")

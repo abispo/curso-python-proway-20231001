@@ -3,13 +3,16 @@
 {% block conteudo %}
 
     {% if form.errors %}
-        <div class="row">
+        <div class="row mt-3">
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 <ul class="list-unstyled">
-                    {% for _, erro in form.errors.items %}
-                        <li><strong>{{ erro }}</strong></li>
+                    {% for _, erros in form.errors.get_json_data.items %}
+                        {% for erro in erros %}
+                            <li class="d-flex justify-content-center"><strong>{{ erro.message }}</strong></li>
+                        {% endfor %}
                     {% endfor %}
                 </ul>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         </div>
     {% endif %}

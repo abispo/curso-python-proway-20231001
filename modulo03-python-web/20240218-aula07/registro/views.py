@@ -3,6 +3,7 @@ from django.shortcuts import redirect, render
 
 from registro.forms import PreRegistroForm
 from registro.models import PreRegistro
+from registro.utils import enviar_email
 
 def pre_registro(request):
 
@@ -34,6 +35,8 @@ def pre_registro(request):
             
             pre_registro = PreRegistro(email=email)
             pre_registro.save()
+
+            enviar_email(request, pre_registro)
 
             return redirect("registro:envio_email_pre_registro")
 

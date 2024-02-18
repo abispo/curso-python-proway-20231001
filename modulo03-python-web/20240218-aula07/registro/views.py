@@ -1,9 +1,17 @@
+from django.conf import settings
 from django.contrib.auth.models import User
+from django.http import HttpRequest
 from django.shortcuts import redirect, render
+from django.utils import timezone
 
 from registro.forms import PreRegistroForm
 from registro.models import PreRegistro
 from registro.utils import enviar_email
+from registro.validators import (
+    senha_valida,
+    todos_os_dados_estao_preenchidos,
+    username_ou_email_ja_cadastrado,
+)
 
 def pre_registro(request):
 
@@ -43,3 +51,78 @@ def pre_registro(request):
 
 def envio_email_pre_registro(request):
     return render(request, "registro/envio_email_pre_registro.html")
+
+
+def registro(request: HttpRequest):
+    
+    if request.method == "GET":
+        
+        codigo_confirmacao = request.GET.get("id")
+        mensagem_erro = None
+        
+        pre_registro = PreRegistro.objects.filter(uuid=codigo_confirmacao).first()
+
+        if not pre_registro or not pre_registro.valido:
+            mensagem_erro = "Código de confirmação inválido. Verifique novamente."
+
+        elif settings.TEMPO_LIMITE_PRE_REGISTRO < (timezone.now() - pre_registro.criado_em).total_seconds():
+            mensagem_erro = "Código de confirmação expirado. Por favor, refaça o pré-cadastro."
+
+        if mensagem_erro:
+            return render(
+                request,
+                "registro/falha_confirmacao_registro.html",
+                {
+                    "mensagem_erro": mensagem_erro,
+                    "pre_registro": pre_registro
+                }
+            )
+        
+        return render(request, "registro/registro.html", {"pre_registro": pre_registro})
+
+    elif request.method == "POST":
+        try:
+            
+            nome = request.POST.get("nome")
+            sobrenome = request.POST.get("sobrenome")
+            username = request.POST.get("username")
+            senha = request.POST.get("senha")
+            confirmacao_senha = request.POST.get("confirmacao_senha")
+            id_pre_registro = request.POST.get("id_pre_registro")
+            email = request.POST.get("email")
+
+            mensagem_erro = None
+
+            if not todos_os_dados_estao_preenchidos(nome, sobrenome, username, senha, confirmacao_senha, id_pre_registro):
+                mensagem_erro = "Todos os dados são obrigatórios"
+
+            elif username_ou_email_ja_cadastrado(username=username, email=email):
+                mensagem_erro = "Existe algum problema com seu cadastro (username ou email já existem)."
+
+            elif not senha_valida(senha=senha, confirmacao_senha=confirmacao_senha):
+                mensagem_erro = "Senha e confirmação de senha são diferentes"
+
+            if mensagem_erro:
+                return render(
+                    request,
+                    "registro/registro.html",
+                    {"mensagem_erro": mensagem_erro}
+                )
+
+        except:
+            pass
+
+
+def reenviar_pre_registro(request: HttpRequest, uuid: str):
+    
+    if request.method == "GET":
+        pre_registro = PreRegistro.objects.get(uuid=uuid)
+        pre_registro.valido = False
+        pre_registro.save()
+
+        pre_registro = PreRegistro(email=pre_registro.email)
+        pre_registro.save()
+
+        enviar_email(request, pre_registro)
+        
+        return render(request, "registro/envio_email_pre_registro.html")

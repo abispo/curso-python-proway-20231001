@@ -148,3 +148,5 @@ LOGIN_REDIRECT_URL = 'agenda:index'
 LOGOUT_REDIRECT_URL = 'agenda:index'
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+TEMPO_LIMITE_PRE_REGISTRO = 86400

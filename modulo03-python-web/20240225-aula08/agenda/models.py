@@ -8,6 +8,9 @@ class Servico(models.Model):
     descricao = models.CharField(max_length=200)
     habilitado = models.BooleanField(default=True)
 
+    def __str__(self) -> str:
+        return self.nome
+
     class Meta:
         db_table = "tb_servicos"
 
@@ -23,9 +26,22 @@ class Agenda(models.Model):
 
 
 class StatusAgendamento(models.Model):
+
+    AGENDADO = "agendado"
+    CONCLUIDO = "concluido"
+    CANCELADO_PELO_CLIENTE = "cancelado_pelo_cliente"
+    CANCELADO_PELO_PROFISSIONAL = "cancelado_pelo_profissional"
+
+    POSSIVEIS_STATUS_AGENDAMENTO = {
+        AGENDADO: "Agendado",
+        CONCLUIDO: "Concluído",
+        CANCELADO_PELO_CLIENTE: "Cancelado pelo cliente",
+        CANCELADO_PELO_PROFISSIONAL: "Cancelado pelo profissional"
+    }
+
     agenda = models.OneToOneField(Agenda, on_delete=models.CASCADE, primary_key=True)
-    status = models.CharField(max_length=100)
-    descricao = models.CharField(max_length=200)
+    status = models.CharField(max_length=100, choices=POSSIVEIS_STATUS_AGENDAMENTO)
+    descricao = models.CharField(max_length=200, null=True, blank=True)
 
     class Meta:
         db_table = "tb_status_agendamentos"

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    <div class="row">
+        <div class="col text-center">
+            <h2>Perfil</h2>
+        </div>
+    </div>
+    <hr>
+
+    {% if mensagem %}
+        <div class="row">
+            <div class="col alert {% if tipo_mensagem == "erro" %}alert-danger{% else %}alert-success{% endif %} alert-dismissible fade show" role="alert">
+                {{ mensagem }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+    {% endif %}
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div class="row mb-3">
+            <div class="col-2 form-floating">
+                <input type="text" name="tipo_logradouro" id="tipo_logradouro" class="form-control" placeholder="Tipo Logradouro" value="{{ user.perfil.tipo_logradouro|default_if_none:'' }}" required>
+                <label for="tipo_logradouro" class="form-label ms-2">Tipo Logradouro</label>
+            </div>
+            <div class="col form-floating">
+                <input type="text" name="logradouro" id="logradouro" class="form-control" placeholder="Logradouro" value="{{ user.perfil.logradouro|default_if_none:'' }}" required>
+                <label for="logradouro" class="form-label ms-2">Logradouro</label>
+            </div>
+            <div class="col-1 form-floating">
+                <input type="text" name="numero" id="numero" class="form-control" placeholder="Número" value="{{ user.perfil.numero|default_if_none:'' }}" required>
+                <label for="numero" class="form-label ms-2">Número</label>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col form-floating">
+                <input type="text" name="bairro" id="bairro" class="form-control" placeholder="Vila Nova" value="{{ user.perfil.bairro|default_if_none:'' }}" required>
+                <label for="bairro" class="form-label ms-2">Bairro</label>
+            </div>
+
+            <div class="col form-floating">
+                <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Blumenau" value="{{ user.perfil.cidade|default_if_none:'' }}" required>
+                <label for="cidade" class="form-label ms-2">Cidade</label>
+            </div>
+
+            <div class="col-1 form-floating">
+                <input type="text" name="uf" id="uf" class="form-control" placeholder="SC" value="{{ user.perfil.uf|default_if_none:'' }}" required>
+                <label for="uf" class="form-label ms-2">UF</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+
+    </form>
+        
+    </div>
+{% endblock conteudo %}

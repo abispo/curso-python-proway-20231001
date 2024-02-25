@@ -2,10 +2,11 @@ from django.conf import settings
 from django.contrib.auth.models import User
 from django.http import HttpRequest
 from django.shortcuts import redirect, render
+from django.urls import reverse
 from django.utils import timezone
 
 from registro.forms import PreRegistroForm
-from registro.models import PreRegistro
+from registro.models import PreRegistro, Perfil
 from registro.utils import enviar_email
 from registro.validators import (
     senha_valida,
@@ -155,3 +156,54 @@ def reenviar_pre_registro(request: HttpRequest, uuid: str):
 
 def sucesso_registro(request: HttpRequest):
     return render(request, "registro/sucesso_registro.html")
+
+
+def perfil(request: HttpRequest, usuario_id: User):
+
+    if request.method == "GET":
+
+        foi_atualizado = bool(int(request.GET.get("foi_atualizado", 0)))
+
+        contexto = {}
+
+        if foi_atualizado:
+            contexto.update({
+                "mensagem": "As informações foram atualizadas com sucesso!",
+                "tipo_mensagem": "sucesso"
+            })
+
+        return render(
+            request,
+            "registro/perfil.html",
+            contexto
+        )
+    
+    elif request.method == "POST":
+
+        try:
+
+            1 / 0
+        
+            tipo_logradouro = request.POST.get("tipo_logradouro")
+            logradouro = request.POST.get("logradouro")
+            numero = request.POST.get("numero")
+            bairro = request.POST.get("bairro")
+            cidade = request.POST.get("cidade")
+            uf = request.POST.get("uf")
+
+            perfil = Perfil(
+                usuario=request.user,
+                tipo_logradouro=tipo_logradouro,
+                logradouro=logradouro,
+                numero=numero,
+                bairro=bairro,
+                cidade=cidade,
+                uf=uf
+            )
+
+            perfil.save()
+
+            return redirect(f"{reverse('registro:perfil_usuario', args=(request.user.id,))}?foi_atualizado=1")
+
+        except Exception as exc_info:
+            return redirect(f"{reverse('registro:perfil_usuario', args=(request.user.id,))}?foi_erro=1")

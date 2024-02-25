@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<div class="row d-flex justify-content-center mt-3">
+    <div class="col-9">
+        <div class="alert alert-info" role="alert">
+            Um e-mail foi enviado para a sua caixa postal, contendo um link de confirmação de cadastro. Verifique a sua caixa de SPAM se o e-mail não chegar dentro de alguns minutos. <a href="{% url "login" %}">Clique aqui</a> para voltar à página de login.
+        </div>
+    </div>
+</div>
+{% endblock conteudo %}

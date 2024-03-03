@@ -54,6 +54,9 @@ class StatusAgendamento(models.Model):
 
     def get_status(self) -> str:
         return self.POSSIVEIS_STATUS_AGENDAMENTO.get(self.status)
+    
+    def cancelavel(self) -> bool:
+        return self.status in [self.A_CONFIRMAR, self.AGENDADO]
 
     def __str__(self) -> str:
         return f"{self.agenda} ({self.POSSIVEIS_STATUS_AGENDAMENTO[self.status]})"

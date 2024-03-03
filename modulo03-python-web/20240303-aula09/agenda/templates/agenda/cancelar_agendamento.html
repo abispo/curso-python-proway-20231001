@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<h2 class="text-center">Cancelar o agendamento {{ agendamento.id|stringformat:"05d" }}?</h2>
+
+<div class="row">
+    <div class="col text-center">Descrição: {{ agendamento }}</div>
+</div>
+<form action="{% url 'agenda:cancelar_agendamento' agendamento.id %}" method="POST">
+    <div class="row mt-3">
+        {% csrf_token %}
+        <div class="col form-floating">
+            <textarea name="motivo_cancelamento" id="motivo_cancelamento" cols="30" rows="10" class="form-control" placeholder="Motivo do cancelamento"></textarea>
+            <label class="ms-2" for="motivo_cancelamento">Motivo do cancelamento: </label>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Cancelar</button>
+        </div>
+    </div>
+</form>
+
+</div>
+{% endblock conteudo %}

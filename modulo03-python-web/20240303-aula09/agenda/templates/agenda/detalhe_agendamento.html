@@ -1,5 +1,21 @@
 {% extends "base.html" %}
 
 {% block conteudo %}
-<h1>Detalhe agendamento {{ agendamento }}</h1>
+    <h3 class="text-center">Detalhe agendamento #{{ agendamento.id|stringformat:"05d" }}</h3>
+    <hr>
+
+    <div class="row">
+        <div class="col d-grid justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">{{ agendamento.servico.nome }}</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">{{ agendamento.data_hora_inicial|date:"d/m/Y H:i" }} - {{ agendamento.data_hora_final|date:"H:i" }}</h6>
+                  <p class="card-text">Status: {{ agendamento.statusagendamento.get_status }}</p>
+                  {% if agendamento.statusagendamento.cancelavel %}
+                    <a href="{% url 'agenda:cancelar_agendamento' agendamento.id %}" class="card-link">Cancelar esse agendamento</a>
+                  {% endif %}
+                </div>
+              </div>
+        </div>
+    </div>
 {% endblock conteudo %}

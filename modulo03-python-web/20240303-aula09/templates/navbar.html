@@ -12,10 +12,10 @@
             <a class="nav-link" href="#">Agendar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Meus Agendamentos</a>
+            <a class="nav-link" href="{% url 'agenda:meus_agendamentos' %}">Meus Agendamentos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{% url "registro:perfil_usuario" user.id %}">Perfil</a>
+            <a class="nav-link" href="{% url "registro:perfil_usuario" %}">Perfil</a>
           </li>
         </ul>
       </div>

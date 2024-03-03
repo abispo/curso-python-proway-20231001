@@ -10,5 +10,5 @@ urlpatterns = [
     path("confirmacao-pre-registro/", views.registro, name="registro"),
     path("reenviar-pre-registro/<uuid>/", views.reenviar_pre_registro, name="reenviar_pre_registro"),
     path("sucesso-registro/", views.sucesso_registro, name="sucesso_registro"),
-    path("<int:usuario_id>/perfil/", views.perfil, name="perfil_usuario"),
+    path("me/perfil/", views.perfil, name="perfil_usuario"),
 ]

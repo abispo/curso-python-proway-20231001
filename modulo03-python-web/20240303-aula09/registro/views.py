@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.http import HttpRequest
 from django.shortcuts import redirect, render
@@ -158,7 +159,8 @@ def sucesso_registro(request: HttpRequest):
     return render(request, "registro/sucesso_registro.html")
 
 
-def perfil(request: HttpRequest, usuario_id: User):
+@login_required
+def perfil(request: HttpRequest):
 
     if request.method == "GET":
 
@@ -181,8 +183,6 @@ def perfil(request: HttpRequest, usuario_id: User):
     elif request.method == "POST":
 
         try:
-
-            1 / 0
         
             tipo_logradouro = request.POST.get("tipo_logradouro")
             logradouro = request.POST.get("logradouro")
@@ -203,7 +203,7 @@ def perfil(request: HttpRequest, usuario_id: User):
 
             perfil.save()
 
-            return redirect(f"{reverse('registro:perfil_usuario', args=(request.user.id,))}?foi_atualizado=1")
+            return redirect(f"{reverse('registro:perfil_usuario')}?foi_atualizado=1")
 
         except Exception as exc_info:
-            return redirect(f"{reverse('registro:perfil_usuario', args=(request.user.id,))}?foi_erro=1")
+            return redirect(f"{reverse('registro:perfil_usuario')}?foi_erro=1")

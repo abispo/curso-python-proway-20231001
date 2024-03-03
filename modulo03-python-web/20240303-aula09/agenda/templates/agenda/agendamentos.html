@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    <h1 class="text-center">Agendamentos do usuário {{ user }}</h1>
+
+    <div class="row row-cols-3 justify-content-center">
+        {% for agenda in agenda_usuario %}
+            <div class="col">{{ agenda }}</div>
+        {% endfor %}
+    </div>
+
+{% endblock conteudo %}

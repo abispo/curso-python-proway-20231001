@@ -21,18 +21,27 @@ class Agenda(models.Model):
     data_hora_inicial = models.DateTimeField()
     data_hora_final = models.DateTimeField()
 
+    def __str__(self) -> str:
+        data = self.data_hora_inicial.strftime("%d/%m/%Y")
+        hora_inicial = self.data_hora_inicial.strftime("%H:%M")
+        hora_final = self.data_hora_final.strftime("%H:%M")
+        
+        return f"{self.servico} ({self.usuario.first_name} {data} {hora_inicial} - {hora_final})"
+
     class Meta:
         db_table = "tb_agendamentos"
 
 
 class StatusAgendamento(models.Model):
 
+    A_CONFIRMAR = "a_confirmar"
     AGENDADO = "agendado"
     CONCLUIDO = "concluido"
     CANCELADO_PELO_CLIENTE = "cancelado_pelo_cliente"
     CANCELADO_PELO_PROFISSIONAL = "cancelado_pelo_profissional"
 
     POSSIVEIS_STATUS_AGENDAMENTO = {
+        A_CONFIRMAR: "A confirmar",
         AGENDADO: "Agendado",
         CONCLUIDO: "Concluído",
         CANCELADO_PELO_CLIENTE: "Cancelado pelo cliente",
@@ -42,6 +51,9 @@ class StatusAgendamento(models.Model):
     agenda = models.OneToOneField(Agenda, on_delete=models.CASCADE, primary_key=True)
     status = models.CharField(max_length=100, choices=POSSIVEIS_STATUS_AGENDAMENTO)
     descricao = models.CharField(max_length=200, null=True, blank=True)
+
+    def __str__(self) -> str:
+        return f"{self.agenda} ({self.POSSIVEIS_STATUS_AGENDAMENTO[self.status]})"
 
     class Meta:
         db_table = "tb_status_agendamentos"

@@ -5,7 +5,16 @@
 
     <div class="row row-cols-3 justify-content-center">
         {% for agenda in agenda_usuario %}
-            <div class="col">{{ agenda }}</div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ agenda.servico }}</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">{{ agenda.data_hora_inicial|date:"d/m/Y H:i" }} - {{ agenda.data_hora_final|date:"H:i" }}</h6>
+                      <p class="card-text">Status: {{ agenda.statusagendamento.get_status }}</p>
+                      <a href="{% url 'agenda:detalhe_agendamento' agenda.id %}" class="card-link">Detalhes desse agendamento</a>
+                    </div>
+                  </div>
+            </div>
         {% endfor %}
     </div>
 

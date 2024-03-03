@@ -52,6 +52,9 @@ class StatusAgendamento(models.Model):
     status = models.CharField(max_length=100, choices=POSSIVEIS_STATUS_AGENDAMENTO)
     descricao = models.CharField(max_length=200, null=True, blank=True)
 
+    def get_status(self) -> str:
+        return self.POSSIVEIS_STATUS_AGENDAMENTO.get(self.status)
+
     def __str__(self) -> str:
         return f"{self.agenda} ({self.POSSIVEIS_STATUS_AGENDAMENTO[self.status]})"
 

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    <div class="row">
+        <div class="col text-center">
+            <h2>Confirmação de cadastro</h2>
+        </div>
+    </div>
+    <hr>
+
+    {% if mensagem_erro %}
+        <div class="row">
+            <div class="col alert alert-danger alert-dismissible fade show" role="alert">
+                {{ mensagem_erro }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+    {% endif %}
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div class="row mb-3">
+            <div class="col form-floating">
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome" required>
+                <label for="nome" class="form-label ms-2">Nome</label>
+            </div>
+            <div class="col form-floating">
+                <input type="text" name="sobrenome" id="sobrenome" class="form-control" placeholder="Sobrenome" required>
+                <label for="sobrenome" class="form-label ms-2">Sobrenome</label>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col form-floating">
+                <input type="text" name="username" id="username" class="form-control" placeholder="joao123" required>
+                <label for="username" class="form-label ms-2">Nome de usuário (username)</label>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col form-floating">
+                <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha" required>
+                <label for="senha" class="form-label ms-2">Senha</label>
+            </div>
+            <div class="col form-floating">
+                <input type="password" name="confirmacao_senha" id="confirmacao_senha" class="form-control" placeholder="Confirmar senha" required>
+                <label for="confirmacao_senha" class="form-label ms-2">Confirmar senha</label>
+            </div>
+        </div>
+
+        <input type="hidden" name="id_pre_registro" value={{ id_pre_registro }}>
+        <input type="hidden" name="email" value={{ email }}>
+
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Confirmar cadastro</button>
+            </div>
+        </div>
+
+    </form>
+        
+    </div>
+{% endblock conteudo %}

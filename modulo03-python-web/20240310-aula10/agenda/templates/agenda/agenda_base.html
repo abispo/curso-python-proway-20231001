@@ -1,0 +1,11 @@
+<h1 class="text-center">Agenda</h1>
+    <div class="row mt-5 text-center">
+        <div class="col"><a href="#">Anterior</a> | <a href="#">Próximo</a></div>
+        <div class="col">{% block texto_agenda %}{% endblock texto_agenda %}</div>
+        <div class="col">
+            <a href="{% url "agenda:agenda" %}?visualizacao=mensal">Mensal</a> |
+            <a href="{% url "agenda:agenda" %}?visualizacao=semanal">Semanal</a> |
+            <a href="#">Diária</a>
+        
+        </div>
+    </div>

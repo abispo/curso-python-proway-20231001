@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    {% include "agenda/agenda_base.html" %}
+    <div class="row bg-light fw-bold mt-3">
+        <div class="col">Horário</div>
+        {% for data in dias_semana %}
+            <div class="col text-center border border-1">{{ data.day }}/{{ data|date:"m" }}</div>
+        {% endfor %}
+    </div>
+    {% for horario in lista_horarios %}
+        <div class="row bg-light fw-bold">
+            <div class="col">{{ horario.hora }}</div>
+            {% for agenda in horario.agendas %}
+                <div class="col text-center border border-1">{{ agenda|default:"" }}</div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+    
+
+{% endblock conteudo %}

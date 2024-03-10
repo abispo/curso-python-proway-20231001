@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    {% include "agenda/agenda_base.html" %}
+    <div class="row bg-light fw-bold mt-3">
+        <div class="col text-center border border-1">Dom</div>
+        <div class="col text-center border border-1">Seg</div>
+        <div class="col text-center border border-1">Ter</div>
+        <div class="col text-center border border-1">Qua</div>
+        <div class="col text-center border border-1">Qui</div>
+        <div class="col text-center border border-1">Sex</div>
+        <div class="col text-center border border-1">Sáb</div>
+    </div>
+    {% for semana in agenda %}
+        <div class="row">
+            {% for data in semana %}
+                <div class="col text-center border border-1"><span class="{% if data.month == data_atual.month %}{% else %}opacity-25{% endif %}">{{ data.day }}</span></div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+{% endblock conteudo %}

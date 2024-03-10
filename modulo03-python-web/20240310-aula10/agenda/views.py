@@ -1,5 +1,8 @@
 import calendar
 
+from datetime import datetime
+
+from django.db.models import Q
 from django.http import HttpRequest
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
@@ -94,11 +97,21 @@ def agenda(request):
             for data in agenda[semana_escolhida-1]:
                 dias_semana.append(data)
 
+            data_hora_inicial = datetime.combine(dias_semana[0], datetime.min.time())
+            data_hora_final = datetime.combine(dias_semana[-1], datetime.max.time())
+
+            agendas_usuario = Agenda.objects.filter(
+                Q(statusagendamento__status=StatusAgendamento.A_CONFIRMAR) | Q(statusagendamento__status=StatusAgendamento.AGENDADO)
+            ).filter(
+                data_hora_inicial__gte=data_hora_inicial,
+                data_hora_final__lte=data_hora_final
+            )
+
             return render(
                 request,
                 "agenda/agenda_semanal.html",
                 {
                     "dias_semana": dias_semana,
-                    "lista_horarios": gerar_lista_horarios()
+                    "lista_horarios": gerar_lista_horarios(agendas_usuario)
                 }
             )

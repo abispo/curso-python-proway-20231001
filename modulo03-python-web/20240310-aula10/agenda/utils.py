@@ -1,22 +1,20 @@
+from typing import List
 from django.db.models import QuerySet
 
 from agenda.models import Agenda
 
-from datetime import date
+from datetime import date, datetime
 
 
-def gerar_lista_horarios(lista_agendas: QuerySet[Agenda]):
+def gerar_lista_horarios(agenda_semanal: List[object], lista_agendas: QuerySet[Agenda]):
 
     horarios = []
 
-    for hora in range(0, 24):
-
-        for agenda in lista_agendas:
-            horario_agenda = agenda.data_hora_inicial
-            horario_atual = horario_agenda.strptime(
-                horario_agenda.strftime(f"%Y-%m-%d {hora:02d}:00"),
-                "%Y-%m-%d %H:%M"
-            )
+    for dia in agenda_semanal:
+        for hora in range(0, 24):
+            horario_atual = datetime.strptime(dia.strftime(f"%Y-%m-%d {hora:02d}:00"), "%Y-%m-%d %H:%M")
+            print("Ok")
+            
         
             horarios.append({
                 "hora": f"{hora:02d}:00",

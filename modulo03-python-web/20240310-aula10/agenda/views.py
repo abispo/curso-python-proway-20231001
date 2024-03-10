@@ -112,6 +112,6 @@ def agenda(request):
                 "agenda/agenda_semanal.html",
                 {
                     "dias_semana": dias_semana,
-                    "lista_horarios": gerar_lista_horarios(agendas_usuario)
+                    "lista_horarios": gerar_lista_horarios(dias_semana, agendas_usuario)
                 }
             )
